@@ -14,13 +14,14 @@ class ShopDetailSpider(CrawlSpider):
     allowed_domains = ['dianping.com']
     rules = (
         Rule(SgmlLinkExtractor(allow=('shop/\d+'), deny=('.+/map$')),callback='parse_shop_detail'), # shop detail
-        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'))), # category pages
-        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+n\d+/.*$'), restrict_xpaths="//a[@class='NextPage']")), # next page
+        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='aside aside-left']")), # category pages
+        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/.*$'), restrict_xpaths="//a[@class='NextPage']")), # next page
         # Rule(SgmlLinkExtractor(allow=('[a-z]+'), restrict_xpaths="//div[@id='divPY']")), # city page
     )
 
     # start_urls = ['http://www.dianping.com/citylist',]
     # start_urls = ['http://www.dianping.com/search/category/9/10/r1629g4479',]
+    
     def start_requests(self):
         seed_file = join(dirname(abspath(__file__)), pardir, 'seeds', 'shanghai.txt')
         for line in open(seed_file,'r').readlines():

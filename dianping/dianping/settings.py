@@ -21,11 +21,20 @@ HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = '/tmp/scrapy/cache/'
 DOWNLOADER_MIDDLEWARES = [ 
     'scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware',
+    'scrapy.contrib.spidermiddleware.depth.DepthMiddleware',
     'dianping.middlewares.IgnoreVisitedUrlMiddleware',
     'dianping.middlewares.PeepMiddleware',
 ]
-DOWNLOAD_DELAY = 1
+
+# Depth limit
+DEPTH_LIMIT=10
+
+#CONCURRENT_REQUESTS_PER_SPIDER=1
+#CONCURRENT_SPIDERS=1
+
+DOWNLOAD_DELAY = 3
 DOWNLOAD_TIMEOUT = 20
 RANDOMIZE_DOWNLOAD_DELAY = True
+
 # LOG_FILE = 'crawl.log'
 ITEM_PIPELINES = ['dianping.pipelines.DianpingPipeline']

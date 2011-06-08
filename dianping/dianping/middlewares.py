@@ -26,7 +26,7 @@ class PeepMiddleware(object):
         return None
 
     def process_response(self, request, response, spider):
-        log.msg('Response: %s'%response.url, log.INFO)
+        # log.msg('Response: %s'%response.url, log.INFO)
         if "对不起，你访问的太快了" in response.body:
             self.n_deny += 1
             sleep_sec = self.n_deny*self.interval

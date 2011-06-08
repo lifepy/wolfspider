@@ -1,0 +1,37 @@
+# 北京 上海 重庆
+http://www.dianping.com/beijing
+http://www.dianping.com/shanghai
+http://www.dianping.com/chongqing
+# 江苏: 南京、苏州、无锡、常州、扬州、徐州
+http://www.dianping.com/nanjing
+http://www.dianping.com/suzhou
+http://www.dianping.com/wuxi
+http://www.dianping.com/changzhou
+http://www.dianping.com/yangzhou
+http://www.dianping.com/xuzhou
+http://www.dianping.com/nantong
+# 浙江: 杭州、绍兴、嘉兴、温州
+http://www.dianping.com/hangzhou
+http://www.dianping.com/shaoxing
+http://www.dianping.com/jiaxing
+http://www.dianping.com/wenzhou
+# 广东: 广州、珠海、东莞
+http://www.dianping.com/guangzhou
+http://www.dianping.com/zhuhai
+http://www.dianping.com/dongguan
+# 福建: 福州、佛山
+http://www.dianping.com/fuzhou
+http://www.dianping.com/foshan
+# 山东: 青岛
+http://www.dianping.com/qingdao
+# 云南: 昆明
+http://www.dianping.com/kunming
+# 湖北: 武汉
+http://www.dianping.com/wuhan
+# 湖南: 长沙
+http://www.dianping.com/changsha
+# 四川: 成都
+http://www.dianping.com/chengdu
+# 海南: 海口、三亚
+http://www.dianping.com/haikou
+http://www.dianping.com/sanya

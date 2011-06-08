@@ -1,0 +1,1416 @@
+2011-06-05 14:35:19-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:35:19-0400 [shop] INFO: Spider opened
+2011-06-05 14:40:17-0400 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force unclean shutdown
+2011-06-05 14:40:17-0400 [shop] INFO: Closing spider (shutdown)
+2011-06-05 14:40:17-0400 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2011-06-05 14:40:20-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:40:20-0400 [shop] INFO: Spider opened
+2011-06-05 14:40:20-0400 [shop] ERROR: Error downloading <http://www.dianping.com/citylist>: [Failure instance: Traceback: <type 'exceptions.TypeError'>: msg() takes at most 2 arguments (3 given)
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/engine.py:183:download
+	/usr/local/lib/python2.6/dist-packages/scrapy/utils/defer.py:39:mustbe_deferred
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/__init__.py:103:fetch
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/middleware.py:65:download
+	--- <exception caught here> ---
+	/usr/local/lib/python2.6/dist-packages/scrapy/utils/defer.py:39:mustbe_deferred
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/middleware.py:32:process_request
+	/media/share/opt/workspace/wolfspider/dianping/dianping/middlewares.py:10:process_request
+	]
+2011-06-05 14:40:20-0400 [shop] INFO: Closing spider (finished)
+2011-06-05 14:40:20-0400 [shop] INFO: Spider closed (finished)
+2011-06-05 14:40:40-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:40:40-0400 [shop] INFO: Spider opened
+2011-06-05 14:40:40-0400 [shop] ERROR: Error downloading <http://www.dianping.com/citylist>: [Failure instance: Traceback: <type 'exceptions.TypeError'>: msg() takes at most 2 arguments (3 given)
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/engine.py:183:download
+	/usr/local/lib/python2.6/dist-packages/scrapy/utils/defer.py:39:mustbe_deferred
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/__init__.py:103:fetch
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/middleware.py:65:download
+	--- <exception caught here> ---
+	/usr/local/lib/python2.6/dist-packages/scrapy/utils/defer.py:39:mustbe_deferred
+	/usr/local/lib/python2.6/dist-packages/scrapy/core/downloader/middleware.py:32:process_request
+	/media/share/opt/workspace/wolfspider/dianping/dianping/middlewares.py:10:process_request
+	]
+2011-06-05 14:40:40-0400 [shop] INFO: Closing spider (finished)
+2011-06-05 14:40:40-0400 [shop] INFO: Spider closed (finished)
+2011-06-05 14:41:18-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:41:19-0400 [shop] INFO: Spider opened
+2011-06-05 14:42:04-0400 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force unclean shutdown
+2011-06-05 14:42:04-0400 [shop] INFO: Closing spider (shutdown)
+2011-06-05 14:42:04-0400 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2011-06-05 14:42:07-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:42:07-0400 [shop] INFO: Spider opened
+2011-06-05 14:42:15-0400 [shop] INFO: Passed 
+	category 四星级酒店
+	'rating' 0.0
+	tel 0519-87222777  87222404
+	name 金陵溧阳宾馆
+	link_url http://www.dianping.com/shop/4683551
+	landmark_bread_crumb 溧阳市
+	hours 尚无营业时间
+	n_rating 3
+	status done
+	bread_crumb 常州生活服务»溧阳市»四星级酒店»金陵溧阳宾馆
+	address 溧阳市西大街118号
+	'_id' ObjectId('4debce076c0b4b0fe0000000')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:16-0400 [shop] INFO: Passed 
+	'category' []
+	'rating' 0.0
+	name 景泰黄河石林
+	link_url http://www.dianping.com/shop/4046869
+	landmark_bread_crumb 景泰县
+	hours 尚无营业时间
+	n_rating 0
+	status done
+	bread_crumb 白银休闲娱乐»景泰县»景泰黄河石林
+	address 景泰县景泰县东南部
+	'_id' ObjectId('4debce086c0b4b0fe0000001')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:17-0400 [shop] INFO: Passed 
+	category 景点
+	'rating' 0.0
+	name 博乐赛里木湖
+	link_url http://www.dianping.com/shop/3692182
+	landmark_bread_crumb 博乐市
+	hours 尚无营业时间
+	n_rating 2
+	status done
+	bread_crumb 博尔塔拉休闲娱乐»博乐市»景点»博乐赛里木湖
+	address 新疆博乐市
+	'_id' ObjectId('4debce096c0b4b0fe0000002')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:17-0400 [shop] INFO: Passed 
+	category 银行
+	'rating' 0.0
+	tel 0898-95599
+	name 中国农业银行(牙叉分理处)
+	link_url http://www.dianping.com/shop/3961729
+	landmark_bread_crumb 牙叉镇
+	hours 尚无营业时间
+	n_rating 0
+	status done
+	bread_crumb 白沙生活服务»牙叉镇»银行»中国农业银行(牙叉分理处)
+	address 牙叉镇镇中路20号
+	'_id' ObjectId('4debce096c0b4b0fe0000003')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:17-0400 [shop] INFO: Passed 
+	'category' []
+	'rating' 4.0
+	tel 0857-7623320
+	name 织金洞
+	link_url http://www.dianping.com/shop/3674410
+	landmark_bread_crumb 织金县
+	hours 尚无营业时间
+	n_rating 7
+	status done
+	bread_crumb 毕节地区休闲娱乐»织金县»织金洞
+	address 织金县境内
+	'_id' ObjectId('4debce096c0b4b0fe0000004')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:18-0400 [shop] INFO: Passed 
+	'category' []
+	'rating' 0.0
+	name 天上人间
+	link_url http://www.dianping.com/shop/4209072
+	landmark_bread_crumb 临河区
+	hours 尚无营业时间
+	n_rating 1
+	status done
+	bread_crumb 巴彦淖尔休闲娱乐»临河区»天上人间
+	address 临河区胜利路蓝宇大厦
+	'_id' ObjectId('4debce0a6c0b4b0fe0000005')
+	transport 尚无公交信息公交/驾车停车
+	
+2011-06-05 14:42:23-0400 [shop] INFO: Passed 
+	category 更多生活服务
+	'rating' 4.0
+	tel 021-96990
+	name 虹桥机场2号航站楼
+	link_url http://www.dianping.com/shop/4617955
+	landmark_bread_crumb 长宁区&gt;动物园/虹桥机场
+	hours 早7：00-24：00
+	avg_cost 637
+	n_rating 69
+	status done
+	bread_crumb 上海生活服务»长宁区»动物园/虹桥机场»更多生活服务»虹桥机场2号航站楼
+	address 长宁区七莘路申昆路
+	'_id' ObjectId('4debce0f6c0b4b0fe0000006')
+	transport 941，925，806，807，938，机场一线（虹桥机场——浦东机场），地铁2号线，...941，925，806，807，938，机场一线（虹桥机场——浦东机场），地铁2号线，10号线更多公交/驾车停车
+	
+2011-06-05 14:42:27-0400 [shop] INFO: Passed 
+	category 团购网站
+	'rating' 0.0
+	tel 021-57515089
+	name 团购集中营
+	link_url http://www.dianping.com/shop/4233787
+	landmark_bread_crumb 
+	hours 全天候24小营业
+	n_rating 0
+	status done
+	bread_crumb 上海生活服务»团购网站»团购集中营
+	address www.tg5199.com
+	'_id' ObjectId('4debce136c0b4b0fe0000007')
+	transport 莘团线、
+	
+2011-06-05 14:42:28-0400 [shop] INFO: Passed 
+	category 火锅,火锅
+	'rating' 5.0
+	recommend_list 霜降牛肉 (241),象拔蚌 (144),极品雪花牛肉 (135),顶级和牛 (132),鲜虾云吞 (82),招牌雪花粒 (72),四喜丸子 (63),黑豚肉 (59),锅底 (58),牛肉 (52),鲜鱼皮饺 (48),杨枝甘露 (45),花雕鸡 (33)
+	tel 021-63855777
+	service_rating 26
+	atmosphere_rating 26
+	link_url http://www.dianping.com/shop/2432107
+	landmark_bread_crumb 卢湾区&gt;新天地&gt;香港新世界广场复兴公园
+	hours 11：00－14：00，17：00－02：00 夜宵(22：00－02：00)
+	avg_cost 365
+	n_rating 190
+	taste_rating 26
+	status done
+	bread_crumb 上海餐厅»卢湾区»新天地»火锅»火锅»锅德港式极品肥牛海鲜火锅(新天地旗舰店)
+	address 卢湾区自忠路338号新天地南里1楼(近黄陂南路)
+	feature_list 可以刷卡 (110),免费停车 (26),供应夜宵 (16),洋房别墅 (11)
+	atmosphere_list 商务宴请 (161),朋友聚餐 (161),情侣约会 (154),家庭聚会 (64),随便吃吃 (11),休闲小憩 (8)
+	'_id' ObjectId('4debce146c0b4b0fe0000008')
+	transport 地铁1号线黄陂南路站公交/驾车停车
+	name 锅德港式极品肥牛海鲜火锅(新天地旗舰店)
+	
+2011-06-05 14:42:28-0400 [shop] INFO: Passed 
+	category 更多生活服务
+	'rating' 4.0
+	tel 021-50370000
+	name 上海国际会议中心
+	link_url http://www.dianping.com/shop/2944498
+	landmark_bread_crumb 浦东新区&gt;陆家嘴&gt;正大广场东方明珠
+	hours 尚无营业时间
+	avg_cost 1173
+	n_rating 89
+	status done
+	bread_crumb 上海生活服务»浦东新区»陆家嘴»更多生活服务»上海国际会议中心
+	address 浦东新区滨江大道2727号东方滨江大酒店内(近国际会议中心)
+	'_id' ObjectId('4debce146c0b4b0fe0000009')
+	transport 轨道交通二号线陆家嘴站，公交933、971、961、985、993、996、583、774、87...轨道交通二号线陆家嘴站，公交933、971、961、985、993、996、583、774、870、871、791、795、796、798、81、82、85、93、607、621路更多公交/驾车停车
+	
+2011-06-05 14:42:29-0400 [shop] INFO: Passed 
+	category 更多生活服务
+	'rating' 3.5
+	name 南门码头
+	link_url http://www.dianping.com/shop/2970523
+	landmark_bread_crumb 近郊&gt;崇明
+	hours 尚无营业时间
+	n_rating 17
+	status done
+	bread_crumb 上海生活服务»近郊»崇明»更多生活服务»南门码头
+	address 近郊崇明县南门路93号(崇明南门路崇明西门路)
+	'_id' ObjectId('4debce156c0b4b0fe000000a')
+	transport 尚无公交信息公交/驾车停车
+	
+2011-06-05 14:42:30-0400 [shop] INFO: Passed 
+	'category' []
+	'rating' 0.0
+	tel 0478-6665557
+	name 同盛祥饭庄
+	link_url http://www.dianping.com/shop/4694387
+	landmark_bread_crumb 杭锦后旗
+	hours 早9；00-----晚12；00
+	n_rating 0
+	status done
+	bread_crumb 巴彦淖尔餐厅»杭锦后旗»同盛祥饭庄
+	address 杭锦后旗东头街6号
+	'_id' ObjectId('4debce166c0b4b0fe000000b')
+	transport 尚无公交信息
+	
+2011-06-05 14:42:34-0400 [shop] INFO: Passed 
+	category 本帮江浙菜,本帮菜,婚宴酒店
+	'rating' 4.5
+	recommend_list 清蒸鲥鱼 (481),越式牛肉粒 (371),樟茶鸭 (251),清炒虾仁 (222),蜜汁火方 (154),素鲍鱼 (151),芒果鲜虾色拉 (122),蟹粉小笼 (117),水晶虾仁 (99),酒醉膏蟹 (94),越式牛柳粒 (77),鲥鱼 (27)
+	atmosphere_list 商务宴请 (574),家庭聚会 (395),朋友聚餐 (381),情侣约会 (107),休闲小憩 (11),随便吃吃 (6)
+	service_rating 21
+	landmark_bread_crumb 徐汇区&gt;肇嘉浜路沿线&gt;第六百货中山医院
+	atmosphere_rating 24
+	link_url http://www.dianping.com/shop/500506
+	description “很有名气”的店。环境“比较舒适”，菜式“以本帮为主。，菜量“不算大”，但都“很精致”。清蒸鲥鱼“算是上海头一块牌子”，“获过奖”的牛肉粒“一如既往”地“灵”，还有清炒虾仁、素鲍鱼......点上一大堆，也“没有失败的菜”。服务“很周到”，服务生基本上“随叫随到”，请客吃饭“绝对不掉价”。
+	hours 11：30-22:00
+	avg_cost 176
+	n_rating 1329
+	taste_rating 24
+	status done
+	bread_crumb 上海餐厅»徐汇区»肇嘉浜路沿线»本帮江浙菜»本帮菜»苏浙汇(徐汇店)
+	address 徐汇区肇嘉浜路388号华泰大厦1-2楼(近襄阳南路)
+	feature_list 免费停车 (169),可以刷卡 (124),可办大型宴会 (21),是老字号 (11)
+	'_id' ObjectId('4debce1a6c0b4b0fe000000c')
+	name 苏浙汇(徐汇店)
+	
+2011-06-05 14:42:34-0400 [shop] INFO: Passed 
+	category 更多生活服务
+	'rating' 0.0
+	name 正章洗染(曲阳路店)
+	link_url http://www.dianping.com/shop/2897752
+	landmark_bread_crumb 虹口区&gt;曲阳地区
+	hours 尚无营业时间
+	n_rating 1
+	status done
+	bread_crumb 上海生活服务»虹口区»曲阳地区»更多生活服务»正章洗染(曲阳路店)
+	address 虹口区曲阳路810号(近建设银行)
+	'_id' ObjectId('4debce1a6c0b4b0fe000000d')
+	transport 尚无公交信息公交/驾车停车
+	
+2011-06-05 14:42:37-0400 [shop] INFO: Passed 
+	category 专卖店
+	'rating' 3.0
+	service_rating 12
+	atmosphere_rating 13
+	link_url http://www.dianping.com/shop/2741125
+	landmark_bread_crumb 东湖区&gt;胜利路
+	hours 尚无营业时间
+	n_rating 10
+	status done
+	bread_crumb 南昌购物»东湖区»胜利路»专卖店»DHC专卖店
+	address 东湖区胜利路
+	'_id' ObjectId('4debce1d6c0b4b0fe000000e')
+	transport 尚无公交信息公交/驾车停车
+	name DHC专卖店
+	
+2011-06-05 14:42:39-0400 [shop] INFO: Passed 
+	category 素菜
+	'rating' 5.0
+	recommend_list 奶油菌菇汤 (233),甜点 (219),提拉米苏 (147),巧克力瀑布 (126),手工巧克力 (107),果醋 (104),担担面 (81),HGDS (75),蒸蛋 (67),生鱼片 (59),甜品 (55),可可杏仁 (53),西点 (49),水果 (46),炒菜 (43)
+	tel 021-64572299  64577821
+	service_rating 24
+	landmark_bread_crumb 徐汇区&gt;龙华&gt;龙华寺
+	atmosphere_rating 27
+	link_url http://www.dianping.com/shop/571669
+	description 门面看着“不咋地”，里边倒是“别有洞天”——“幽雅宽敞”，不愧是“重视”环境的“台湾”制造。自助餐全是素食，品种“相当丰富时尚”，素菜做成的荤菜，不论是形状、色泽还是味道都足可“以假乱真”；甜品也是一大“亮点”，号称“不加鸡蛋”，尝起来还“不错”。吃腻了大鱼大肉，不妨去静静心、清清肠吧。
+	hours 中餐：11：30～14：00
+	晚餐：17：30～21：00
+	avg_cost 157
+	n_rating 539
+	taste_rating 24
+	status done
+	bread_crumb 上海餐厅»徐汇区»龙华»素菜»人道素菜欢喜斋
+	address 徐汇区龙华路2787号龙华迎宾馆内(近龙华寺)
+	feature_list 可以刷卡 (194),免费停车 (116),有下午茶 (4),可办大型宴会 (3)
+	atmosphere_list 朋友聚餐 (179),情侣约会 (142),商务宴请 (81),家庭聚会 (64),休闲小憩 (16),随便吃吃 (11)
+	'_id' ObjectId('4debce1f6c0b4b0fe000000f')
+	transport 864路 809路 44路 44区间路 734路 41路公交/驾车停车
+	name 人道素菜欢喜斋
+	
+2011-06-05 14:42:39-0400 [shop] INFO: Passed 
+	category 韩国料理
+	'rating' 4.0
+	recommend_list 五花肉 (536),上等牛舌 (360),炒年糕 (316),石锅拌饭 (251),辣五花肉 (249),凉拌金针菇 (219),烤香菇 (148),韩式牛肉 (145),牛舌 (98),烤肉拼盘 (90),鸡胗 (74),烤五花肉 (67),鱿鱼 (62)
+	tel 021-63910887
+	service_rating 19
+	landmark_bread_crumb 卢湾区&gt;淮海路&gt;无限度广场大上海时代广场
+	atmosphere_rating 17
+	link_url http://www.dianping.com/shop/566176
+	description “奔着肉去的”，点了一堆。期间先上小菜，“大爱”南瓜粥，“清甜开胃”。待炭炉、铁盘到位后就开烤咯，牛舌“淋上柠檬汁”，“正反翻一翻”，“鲜嫩”的说；五花肉“烤久一点”，“很香”，包上生菜，“一点都不油腻”。反正“自己动手”，怎么都觉得“开心”。价格整体偏高些，有优惠时比较划算。
+	hours 10:00-22:00
+	avg_cost 69
+	n_rating 1262
+	taste_rating 19
+	status done
+	bread_crumb 上海餐厅»卢湾区»淮海路»韩国料理»韩风炭火烤肉(时代店)会员卡商户
+	address 卢湾区淮海中路99号大上海时代广场B1楼(柳林路口 12.22恢复营业)
+	feature_list 可以刷卡 (414),免费停车 (6),有下午茶 (3)
+	atmosphere_list 朋友聚餐 (720),情侣约会 (308),休闲小憩 (134),随便吃吃 (61),家庭聚会 (55),商务宴请 (15)
+	'_id' ObjectId('4debce1f6c0b4b0fe0000010')
+	transport 地铁一号线到黄陂南路、926公交公交/驾车停车
+	name 韩风炭火烤肉(时代店)
+	
+2011-06-05 14:42:40-0400 [shop] INFO: Passed 
+	category 本帮江浙菜,本帮菜,婚宴酒店
+	'rating' 4.0
+	recommend_list 糖醋小排 (252),糯香牛柳粒 (230),清炒虾仁 (196),蟹粉豆腐 (124),毛蟹年糕 (91),醉虾 (78),荷兰豆拌北极贝 (78),樟茶鸭 (74),红烧肉 (72),清蒸多宝鱼 (69),糯米竹蛏 (53),咸蹄膀 (43)
+	tel 021-55223229
+	service_rating 15
+	landmark_bread_crumb 杨浦区&gt;五角场/大学区&gt;百联又一城万达广场
+	atmosphere_rating 17
+	link_url http://www.dianping.com/shop/504264
+	description “很有名气”的酒家。做的是“家常”上海菜，“浓油赤酱”——要说多有特色真的说不上，关键是“菜品质量很稳定”，每个菜都“很到位”，请客选这里会“比较放心”。推荐糖醋小排和清炒河虾仁，“很好吃”。菜量“还可以”。服务还行，生意好的时候“手脚会有点慢”。
+	hours 11：00--14：00，17：00--22：00
+	avg_cost 111
+	n_rating 840
+	taste_rating 20
+	status done
+	bread_crumb 上海餐厅»杨浦区»五角场/大学区»本帮江浙菜»本帮菜»鹭鹭酒家(五角场店)
+	address 杨浦区淞沪路98号赛博数码广场5楼(近政通路)
+	feature_list 可以刷卡 (106),可办大型宴会 (37),免费停车 (29),是老字号 (6)
+	atmosphere_list 家庭聚会 (347),朋友聚餐 (342),商务宴请 (207),情侣约会 (34),随便吃吃 (26),休闲小憩 (10)
+	'_id' ObjectId('4debce206c0b4b0fe0000011')
+	transport 8、55、59、61、90、99、102、139、168、538、559、713、749、812、817、81...8、55、59、61、90、99、102、139、168、538、559、713、749、812、817、819、842、850、910、937、942、991、大桥三线、机场四线、大桥五线更多公交/驾车停车
+	name 鹭鹭酒家(五角场店)
+	
+2011-06-05 14:42:41-0400 [shop] INFO: Passed 
+	category 面包甜点
+	'rating' 0.0
+	recommend_list 沙拉包 (4),菠萝包 (2)
+	atmosphere_list 随便吃吃 (3),休闲小憩 (2)
+	name 马得利蛋糕(叠山路店)
+	link_url http://www.dianping.com/shop/2913469
+	landmark_bread_crumb 东湖区&gt;胜利路
+	hours 尚无营业时间
+	avg_cost 10
+	n_rating 4
+	status done
+	bread_crumb 南昌餐厅»东湖区»胜利路»面包甜点»马得利蛋糕(叠山路店)
+	address 东湖区叠山路(大众购物中心对面)
+	'_id' ObjectId('4debce216c0b4b0fe0000012')
+	transport 尚无公交信息公交/驾车停车
+	description “老牌”西饼店，可以说是“吃他家东西长大的”。平时“买面包当早餐”，“过年、过生日订蛋糕”，都去那儿。夏天的冰粥也“不错”，味道刚好，“不会很甜”。价格一点都不贵，属于“最实惠、最符合民情”的那种。
+	
+2011-06-05 14:42:44-0400 [shop] INFO: Passed 
+	category 火锅,火锅
+	'rating' 3.5
+	recommend_list 骨头锅 (244),钵钵鸡 (60),蛋饺 (40),酸梅汁 (35),厚百叶 (8),蟹肉棒 (7),骨头锅底 (7),骨头 (3),香辣牛蛙 (2)
+	atmosphere_list 朋友聚餐 (162),家庭聚会 (39),随便吃吃 (32),情侣约会 (15),休闲小憩 (5)
+	service_rating 15
+	landmark_bread_crumb 闵行区&gt;老闵行&gt;金平路地铁站
+	atmosphere_rating 13
+	link_url http://www.dianping.com/shop/2356210
+	description 很想吃骨头，于是就来了这家。锅子上来，“好大”一个——里面骨头“有好多”，而且除了有骨头，还有笋和肉圆。汤头“很浓郁”，“很香”；吃骨头的时候，有“专门”的透明手套，吃起来“还算方便”。服务员也“很周到”，会帮我们夹骨头什么的。喝着啤酒，啃着骨头，“不亦乐乎”！
+	hours 尚无营业时间
+	avg_cost 54
+	n_rating 241
+	taste_rating 20
+	status done
+	bread_crumb 上海餐厅»闵行区»老闵行»火锅»火锅»三人行骨头王火锅(闵行店)
+	address 闵行区东川路2266弄68号(近金平路)
+	feature_list 可以刷卡 (29),免费停车 (22),供应夜宵 (2)
+	'_id' ObjectId('4debce246c0b4b0fe0000013')
+	name 三人行骨头王火锅(闵行店)
+	
+2011-06-05 14:42:45-0400 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force unclean shutdown
+2011-06-05 14:42:46-0400 [shop] INFO: Closing spider (shutdown)
+2011-06-05 14:42:46-0400 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2011-06-05 14:42:50-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Enabled extensions: TelnetConsole, SpiderContext, WebService, CoreStats, MemoryUsage, CloseSpider
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Enabled scheduler middlewares: DuplicatesFilterMiddleware
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Enabled downloader middlewares: IgnoreVisitedUrlMiddleware, PeepMiddleware
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Enabled item pipelines: DianpingPipeline
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2011-06-05 14:42:50-0400 [shop] INFO: Spider opened
+2011-06-05 14:42:50-0400 [scrapy] DEBUG: Request: http://www.dianping.com/citylist
+2011-06-05 14:42:52-0400 [scrapy] DEBUG: Response: http://www.dianping.com/citylist
+2011-06-05 14:42:52-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/citylist> (referer: None)
+2011-06-05 14:42:52-0400 [scrapy] DEBUG: Request: http://www.dianping.com/login
+2011-06-05 14:42:52-0400 [scrapy] DEBUG: Request: http://www.dianping.com/akesudiqu
+2011-06-05 14:42:52-0400 [scrapy] DEBUG: Request: http://www.dianping.com/aletaidiqu
+2011-06-05 14:42:54-0400 [scrapy] DEBUG: Response: http://www.dianping.com/login
+2011-06-05 14:42:54-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/login> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:42:54-0400 [scrapy] DEBUG: Request: http://www.dianping.com/aboutus/zhishichanquan.html
+2011-06-05 14:42:54-0400 [shop] DEBUG: Filtered offsite request to 'en.wikipedia.org': <GET http://en.wikipedia.org/wiki/Robots_exclusion_standard>
+2011-06-05 14:42:56-0400 [scrapy] DEBUG: Response: http://www.dianping.com/akesudiqu
+2011-06-05 14:42:56-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/akesudiqu> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:42:56-0400 [scrapy] DEBUG: Request: http://www.dianping.com/robots.txt
+2011-06-05 14:42:58-0400 [scrapy] DEBUG: Response: http://www.dianping.com/aletaidiqu
+2011-06-05 14:42:58-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/aletaidiqu> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:42:58-0400 [scrapy] DEBUG: Request: http://www.dianping.com/'%20+%20(m.msg.i%20?+%27%2Fshop%2F%27+++m.id+++%27%2Fphotos%27+%3A+%27%2Fupload%2Fshop%2F%27+++m.id%29+++%27=
+2011-06-05 14:43:00-0400 [scrapy] DEBUG: Response: http://www.dianping.com/aboutus/zhishichanquan.html
+2011-06-05 14:43:00-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/aboutus/zhishichanquan.html> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:43:00-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/0/order=3
+2011-06-05 14:43:01-0400 [scrapy] DEBUG: Response: http://www.dianping.com/robots.txt
+2011-06-05 14:43:01-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/robots.txt> (referer: http://www.dianping.com/login)
+2011-06-05 14:43:01-0400 [scrapy] DEBUG: Request: http://www.dianping.com/aboutus/useragreement
+2011-06-05 14:43:02-0400 [scrapy] DEBUG: Response: http://www.dianping.com/'%20+%20(m.msg.i%20?+%27%2Fshop%2F%27+++m.id+++%27%2Fphotos%27+%3A+%27%2Fupload%2Fshop%2F%27+++m.id%29+++%27=
+2011-06-05 14:43:02-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/'%20+%20(m.msg.i%20?+%27%2Fshop%2F%27+++m.id+++%27%2Fphotos%27+%3A+%27%2Fupload%2Fshop%2F%27+++m.id%29+++%27=> (referer: http://www.dianping.com/akesudiqu)
+2011-06-05 14:43:02-0400 [scrapy] DEBUG: Request: http://www.dianping.com/aboutus/partner
+2011-06-05 14:43:04-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/0/order=3
+2011-06-05 14:43:04-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/0/order=3> (referer: http://www.dianping.com/aletaidiqu)
+2011-06-05 14:43:04-0400 [scrapy] DEBUG: Request: http://www.dianping.com
+2011-06-05 14:43:06-0400 [scrapy] DEBUG: Response: http://www.dianping.com/aboutus/useragreement
+2011-06-05 14:43:06-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/aboutus/useragreement> (referer: http://www.dianping.com/aboutus/zhishichanquan.html)
+2011-06-05 14:43:06-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/6
+2011-06-05 14:43:08-0400 [scrapy] DEBUG: Response: http://www.dianping.com/aboutus/partner
+2011-06-05 14:43:08-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/aboutus/partner> (referer: http://www.dianping.com/aboutus/zhishichanquan.html)
+2011-06-05 14:43:08-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/40
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.airchina.com.cn': <GET http://www.airchina.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.ctrip.com': <GET http://www.ctrip.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.sina.com.cn': <GET http://www.sina.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.shanda.com.cn': <GET http://www.shanda.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.gznet.com': <GET http://www.gznet.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.xinhuanet.com': <GET http://www.xinhuanet.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.sh-holiday.com': <GET http://www.sh-holiday.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.ocj.com.cn': <GET http://www.ocj.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.ycwb.com': <GET http://www.ycwb.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.chinaunicom.com.cn': <GET http://www.chinaunicom.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.chinamobile.com': <GET http://www.chinamobile.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.zjol.com.cn': <GET http://www.zjol.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.jschina.com.cn': <GET http://www.jschina.com.cn/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.highai.com': <GET http://www.highai.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.mysvw.com': <GET http://www.mysvw.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'club.pchome.net': <GET http://club.pchome.net/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.chehh.com': <GET http://www.chehh.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.tuanp.com': <GET http://www.tuanp.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'xmwb.xinmin.cn': <GET http://xmwb.xinmin.cn/metro/html/2010-08/05/node_1302.htm>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.zjol.com': <GET http://www.zjol.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.linktone.com': <GET http://www.linktone.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.114study.com': <GET http://www.114study.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.pinchela.com': <GET http://www.pinchela.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.uoko.com': <GET http://www.uoko.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.meishichina.com': <GET http://www.meishichina.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.cnyouhui.com': <GET http://www.cnyouhui.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.edulife.com.cn': <GET http://www.edulife.com.cn>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.gewara.com': <GET http://www.gewara.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.verycd.com': <GET http://www.verycd.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.blogbus.com': <GET http://www.blogbus.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.cnblogs.com': <GET http://www.cnblogs.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.xitek.com': <GET http://www.xitek.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.blueidea.com': <GET http://www.blueidea.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.pdx.cn': <GET http://www.pdx.cn/pdx>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.studentblog.net': <GET http://www.studentblog.net>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'inezha.com': <GET http://inezha.com/help/links>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.metroer.com': <GET http://www.metroer.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.51xingzuo.com': <GET http://www.51xingzuo.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'mail.21cn.com': <GET http://mail.21cn.com/>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.shbear.com': <GET http://www.shbear.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.myit365.com': <GET http://www.myit365.com>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.chanet.com.cn': <GET http://www.chanet.com.cn>
+2011-06-05 14:43:08-0400 [shop] DEBUG: Filtered offsite request to 'www.appdh.com': <GET http://www.appdh.com/>
+2011-06-05 14:43:09-0400 [scrapy] DEBUG: Response: http://www.dianping.com
+2011-06-05 14:43:09-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com> (referer: http://www.dianping.com/'%20+%20(m.msg.i%20?+%27%2Fshop%2F%27+++m.id+++%27%2Fphotos%27+%3A+%27%2Fupload%2Fshop%2F%27+++m.id%29+++%27=)
+2011-06-05 14:43:09-0400 [scrapy] DEBUG: Request: http://www.dianping.com/union
+2011-06-05 14:43:11-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/6
+2011-06-05 14:43:11-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/6> (referer: http://www.dianping.com/memberlist/338/0/order=3)
+2011-06-05 14:43:11-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link
+2011-06-05 14:43:13-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/40
+2011-06-05 14:43:13-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/40> (referer: http://www.dianping.com/memberlist/338/0/order=3)
+2011-06-05 14:43:13-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/0
+2011-06-05 14:43:14-0400 [scrapy] DEBUG: Response: http://www.dianping.com/union
+2011-06-05 14:43:14-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/union> (referer: http://www.dianping.com/aboutus/partner)
+2011-06-05 14:43:14-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/40/order=3
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'shop60736749.taobao.com': <GET http://shop60736749.taobao.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.pinchela.com': <GET http://food.pinchela.com/>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'life.sina.com.cn': <GET http://life.sina.com.cn/>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'www.google.com': <GET https://www.google.com/adsense>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'www.benbenyouyou.com': <GET http://www.benbenyouyou.com/bbs/>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dianping.xique.com': <GET http://dianping.xique.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dianping.lofott.com': <GET http://dianping.lofott.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.changgeren.com': <GET http://food.changgeren.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'hy114.hxkj68.com': <GET http://hy114.hxkj68.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'sz.igcy.com': <GET http://sz.igcy.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'www.iesay.com': <GET http://www.iesay.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'www.97mvp.cn': <GET http://www.97mvp.cn>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.yulexp.com': <GET http://food.yulexp.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.msnshell.com': <GET http://food.msnshell.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dianping.rayli.com': <GET http://dianping.rayli.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'city.news365.com.cn': <GET http://city.news365.com.cn>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.lewo.cz.cc': <GET http://food.lewo.cz.cc>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.aoturen.com': <GET http://food.aoturen.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.njtuangou.cn': <GET http://food.njtuangou.cn>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.chinamac.com': <GET http://food.chinamac.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'eat.qianggen.com': <GET http://eat.qianggen.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dianping.cha163.net': <GET http://dianping.cha163.net>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dp.aswchina.cn': <GET http://dp.aswchina.cn>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'food.etochina.com': <GET http://food.etochina.com>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'dianping.123chacha.cn': <GET http://dianping.123chacha.cn>
+2011-06-05 14:43:14-0400 [shop] DEBUG: Filtered offsite request to 'eat.ycbaixing.com': <GET http://eat.ycbaixing.com>
+2011-06-05 14:43:16-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link
+2011-06-05 14:43:16-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link> (referer: http://www.dianping.com/aboutus/partner)
+2011-06-05 14:43:16-0400 [scrapy] DEBUG: Request: http://gznet.dianping.com
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.baobei999.com': <GET http://www.baobei999.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.jia123.com': <GET http://www.jia123.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.chibixiazai.net.cn': <GET http://www.chibixiazai.net.cn>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.gdmaicai.com': <GET http://www.gdmaicai.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.binv.org.cn': <GET http://www.binv.org.cn/>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'sz201.5d6d.com': <GET http://sz201.5d6d.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.a7g6.com': <GET http://www.a7g6.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.dxmtea.com': <GET http://www.dxmtea.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.e-sd.net.cn': <GET http://www.e-sd.net.cn/>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.luckys.com.cn': <GET http://www.luckys.com.cn>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.yooface.com': <GET http://www.yooface.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.job956.com': <GET http://www.job956.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.play9.com': <GET http://www.play9.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.wz8877.com': <GET http://www.wz8877.com/>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.food-town.cn': <GET http://www.food-town.cn>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.6eat.com': <GET http://www.6eat.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.uthemes.net': <GET http://www.uthemes.net>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.gongsiwang.com': <GET http://www.gongsiwang.com/>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.numbfish.net': <GET http://www.numbfish.net>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'rent.wuxi.soufun.com': <GET http://rent.wuxi.soufun.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.movesh.com': <GET http://www.movesh.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.gzmaicai.com': <GET http://www.gzmaicai.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.rockpot.cn': <GET http://www.rockpot.cn>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.xhuayuan.com': <GET http://www.xhuayuan.com>
+2011-06-05 14:43:16-0400 [shop] DEBUG: Filtered offsite request to 'www.bbyinhang.com': <GET http://www.bbyinhang.com>
+2011-06-05 14:43:17-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/0
+2011-06-05 14:43:17-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/0> (referer: http://www.dianping.com/memberlist/338/6)
+2011-06-05 14:43:17-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=65
+2011-06-05 14:43:19-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/40/order=3
+2011-06-05 14:43:19-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/40/order=3> (referer: http://www.dianping.com/memberlist/338/40)
+2011-06-05 14:43:19-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=9
+2011-06-05 14:43:20-0400 [scrapy] DEBUG: Response: http://gznet.dianping.com
+2011-06-05 14:43:20-0400 [shop] DEBUG: Crawled (302) <GET http://gznet.dianping.com> (referer: http://www.dianping.com/union)
+2011-06-05 14:43:20-0400 [scrapy] DEBUG: Request: http://www.dianping.com/memberlist/338/40/order=1
+2011-06-05 14:43:22-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=65
+2011-06-05 14:43:22-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=65> (referer: http://www.dianping.com/link)
+2011-06-05 14:43:22-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=8
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.weige7.cn': <GET http://www.weige7.cn>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.ihuigo.com': <GET http://www.ihuigo.com/>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.shaobaowang.com': <GET http://www.shaobaowang.com/>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.mskj.net': <GET http://www.mskj.net>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.21qs.com': <GET http://www.21qs.com/?aid=2>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.jmwx.net': <GET http://www.jmwx.net>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.sisalon.org': <GET http://www.sisalon.org>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.ourdongli.com': <GET http://www.ourdongli.com>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.jkdpw.com': <GET http://www.jkdpw.com>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.hi-chic.com': <GET http://www.hi-chic.com>
+2011-06-05 14:43:23-0400 [shop] DEBUG: Filtered offsite request to 'www.51utx.com': <GET http://www.51utx.com>
+2011-06-05 14:43:24-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=9
+2011-06-05 14:43:24-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=9> (referer: http://www.dianping.com/link)
+2011-06-05 14:43:24-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=63
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.dayoo.org': <GET http://www.dayoo.org>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.dgyfb.com': <GET http://www.dgyfb.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.gztaisheng.cn': <GET http://www.gztaisheng.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.usweet.cn': <GET http://www.usweet.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.58card.cn': <GET http://www.58card.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.91menu.com': <GET http://www.91menu.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.jinma56.com': <GET http://www.jinma56.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.moodou.com': <GET http://www.moodou.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.o.cn': <GET http://www.o.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.7cx.com': <GET http://www.7cx.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.jiayufang.com': <GET http://www.jiayufang.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.hygolfcn.com': <GET http://www.hygolfcn.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.shanghaixc.net': <GET http://www.shanghaixc.net>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.cqesw.cn': <GET http://www.cqesw.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.qixoo.com': <GET http://www.qixoo.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.ty28.com': <GET http://www.ty28.com/>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'hi.baidu.com': <GET http://hi.baidu.com/houseblog>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.biandanhang.com': <GET http://www.biandanhang.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.lssys.cn': <GET http://www.lssys.cn/>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.yyonline.com.cn': <GET http://www.yyonline.com.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.eliang.com.cn': <GET http://www.eliang.com.cn>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.sosofox.com': <GET http://www.sosofox.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.city8.com': <GET http://www.city8.com>
+2011-06-05 14:43:24-0400 [shop] DEBUG: Filtered offsite request to 'www.51kela.com': <GET http://www.51kela.com>
+2011-06-05 14:43:26-0400 [scrapy] DEBUG: Response: http://www.dianping.com/memberlist/338/40/order=1
+2011-06-05 14:43:26-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/memberlist/338/40/order=1> (referer: http://www.dianping.com/memberlist/338/40/order=3)
+2011-06-05 14:43:26-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=13
+2011-06-05 14:43:28-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=8
+2011-06-05 14:43:28-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=8> (referer: http://www.dianping.com/link)
+2011-06-05 14:43:28-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=12
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.pinsou.com': <GET http://www.pinsou.com/jingzhou/>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.hot1.cn': <GET http://www.hot1.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.yegou.com.cn': <GET http://www.yegou.com.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.71dp.com': <GET http://www.71dp.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.jinzi.org': <GET http://www.jinzi.org>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www500w.ttsite.com': <GET http://www500w.ttsite.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.jnmsw.net': <GET http://www.jnmsw.net>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.soso9.com': <GET http://www.soso9.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.mart-sh.com': <GET http://www.mart-sh.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'd.pospass.com': <GET http://d.pospass.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.gotostreet.com': <GET http://www.gotostreet.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.vokok.com': <GET http://www.vokok.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.mypethome.com': <GET http://www.mypethome.com/>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.soucaipu.cn': <GET http://www.soucaipu.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.168gongnu.cn': <GET http://www.168gongnu.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.jiahuaestate.com': <GET http://www.jiahuaestate.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.bihaitravel.net': <GET http://www.bihaitravel.net>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.bjoutlets.com': <GET http://www.bjoutlets.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.c101c.com': <GET http://www.c101c.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.lnfl.com.cn': <GET http://www.lnfl.com.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.anruimc.com': <GET http://www.anruimc.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.5dqm.net': <GET http://www.5dqm.net>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.nanhua.sh.cn': <GET http://www.nanhua.sh.cn>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.hongdamc.com': <GET http://www.hongdamc.com>
+2011-06-05 14:43:28-0400 [shop] DEBUG: Filtered offsite request to 'www.genevahotels.com.cn': <GET http://www.genevahotels.com.cn>
+2011-06-05 14:43:30-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=63
+2011-06-05 14:43:30-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=63> (referer: http://www.dianping.com/link?pageno=65)
+2011-06-05 14:43:30-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/2599
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.51guoshi.com': <GET http://www.51guoshi.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.adbeian.tk': <GET http://www.adbeian.tk/>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.1320.cn': <GET http://www.1320.cn>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.yjcs.cn': <GET http://www.yjcs.cn>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.torloon.com': <GET http://www.torloon.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'letaotao100.lingd.net': <GET http://letaotao100.lingd.net/>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.hycod.cn': <GET http://www.hycod.cn>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.xian57.com': <GET http://www.xian57.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.diaochapai.com': <GET http://www.diaochapai.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.lxredian.com': <GET http://www.lxredian.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.qcrtuan.com': <GET http://www.qcrtuan.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.sougo.cc': <GET http://www.sougo.cc>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.aipaobang.com': <GET http://www.aipaobang.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.xmshenghuo.com': <GET http://www.xmshenghuo.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.dubao.net.cn': <GET http://www.dubao.net.cn/gxq.asp>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.1otc.cn': <GET http://www.1otc.cn>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.5ulife.net': <GET http://www.5ulife.net>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.lorui.com': <GET http://www.lorui.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.huituangou.net': <GET http://www.huituangou.net>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'souhuo.5d6d.com': <GET http://souhuo.5d6d.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.gu-er.com': <GET http://www.gu-er.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.caipucaipu.com': <GET http://www.caipucaipu.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'www.jlyes.com': <GET http://www.jlyes.com>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'njlosers.megabyet.net': <GET http://njlosers.megabyet.net/>
+2011-06-05 14:43:31-0400 [shop] DEBUG: Filtered offsite request to 'suz.fenlei168.com': <GET http://suz.fenlei168.com/link/>
+2011-06-05 14:43:32-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=13
+2011-06-05 14:43:32-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=13> (referer: http://www.dianping.com/link?pageno=9)
+2011-06-05 14:43:32-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=60
+2011-06-05 14:43:32-0400 [shop] DEBUG: Filtered offsite request to 'www.wingtone.cn': <GET http://www.wingtone.cn>
+2011-06-05 14:43:32-0400 [shop] DEBUG: Filtered offsite request to 'www.zhai7.com': <GET http://www.zhai7.com/>
+2011-06-05 14:43:32-0400 [shop] DEBUG: Filtered offsite request to 'www.udeep.cn': <GET http://www.udeep.cn>
+2011-06-05 14:43:32-0400 [shop] DEBUG: Filtered offsite request to 'www.shfasts.cn': <GET http://www.shfasts.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.ukcheapcalls.com': <GET http://www.ukcheapcalls.com/>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'o19.cn': <GET http://o19.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.3k5k.com': <GET http://www.3k5k.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.cc-rd.com': <GET http://www.cc-rd.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.5ashw.cn': <GET http://www.5ashw.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.h935.com': <GET http://www.h935.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.gotobus.cn': <GET http://www.gotobus.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.isowan.com': <GET http://www.isowan.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.haosiekon.com': <GET http://www.haosiekon.com/>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.scjk.net': <GET http://www.scjk.net>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.fymsn.com': <GET http://www.fymsn.com/>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.hnbte.com': <GET http://www.hnbte.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.cnfex.com': <GET http://www.cnfex.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.zvoa.com.cn': <GET http://www.zvoa.com.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.baayee.com': <GET http://www.baayee.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.henghengw.com': <GET http://www.henghengw.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.peakauto.com.cn': <GET http://www.peakauto.com.cn>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.sayy.com': <GET http://www.sayy.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.a6go.com': <GET http://www.a6go.com>
+2011-06-05 14:43:33-0400 [shop] DEBUG: Filtered offsite request to 'www.bjnongjia.com': <GET http://www.bjnongjia.com/>
+2011-06-05 14:43:35-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=12
+2011-06-05 14:43:35-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=12> (referer: http://www.dianping.com/link?pageno=9)
+2011-06-05 14:43:35-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=17
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.mo-jie-gou.com': <GET http://www.mo-jie-gou.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.wz114.cn': <GET http://www.wz114.cn>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.12taobao.com': <GET http://www.12taobao.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.pfweb.net': <GET http://www.pfweb.net>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.jooobooo.com': <GET http://www.jooobooo.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.heinu.com': <GET http://www.heinu.com/>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'game.d1pd.com': <GET http://game.d1pd.com/>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.hgsblt.com': <GET http://www.hgsblt.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.garden.net.cn': <GET http://www.garden.net.cn>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.cfchina.cn': <GET http://www.cfchina.cn>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'nanjing.shtuangou.com': <GET http://nanjing.shtuangou.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.go03.cn': <GET http://www.go03.cn/>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.qudong365.com': <GET http://www.qudong365.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.rentome.com': <GET http://www.rentome.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.scccjm.com': <GET http://www.scccjm.com/>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.cddkw.com': <GET http://www.cddkw.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.17u.com': <GET http://www.17u.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.xieyy.com': <GET http://www.xieyy.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.bosshr.com': <GET http://www.bosshr.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.allask.com.cn': <GET http://www.allask.com.cn>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.abcsydney.com': <GET http://www.abcsydney.com/cn>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'aoerme.xinwen520.net': <GET http://aoerme.xinwen520.net>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.yepbest.com': <GET http://www.yepbest.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'fy.fycdc.com': <GET http://fy.fycdc.com>
+2011-06-05 14:43:35-0400 [shop] DEBUG: Filtered offsite request to 'www.cdit8.com': <GET http://www.cdit8.com/>
+2011-06-05 14:43:36-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/2599
+2011-06-05 14:43:36-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/2599> (referer: http://www.dianping.com/link?pageno=8)
+2011-06-05 14:43:36-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/2997
+2011-06-05 14:43:38-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=60
+2011-06-05 14:43:38-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=60> (referer: http://www.dianping.com/link?pageno=63)
+2011-06-05 14:43:38-0400 [scrapy] DEBUG: Request: http://www.dianping.com/aboutus/friend
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.ksc24.com': <GET http://www.ksc24.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.uopeng.com': <GET http://www.uopeng.com/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.365dhw.com': <GET http://www.365dhw.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.cnlao.cn': <GET http://www.cnlao.cn>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.qirengu.com': <GET http://www.qirengu.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.xfdao.net': <GET http://www.xfdao.net>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.ilttw.com': <GET http://www.ilttw.com/bbs/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.km111.com.cn': <GET http://www.km111.com.cn/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.wx1558.com': <GET http://www.wx1558.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.jn01.com': <GET http://www.jn01.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'dy.rkanr.com': <GET http://dy.rkanr.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.sy660.cn': <GET http://www.sy660.cn/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.16187.com': <GET http://www.16187.com/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.28dh.com': <GET http://www.28dh.com/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.9856789.com': <GET http://www.9856789.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.xiaoquan.com': <GET http://www.xiaoquan.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.glassesbang.com': <GET http://www.glassesbang.com/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.cyenshi.com': <GET http://www.cyenshi.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.027xuyang.com': <GET http://www.027xuyang.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.xuyangedu.com': <GET http://www.xuyangedu.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.y6web.cn': <GET http://www.y6web.cn>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.xiaoshuo5.cn': <GET http://www.xiaoshuo5.cn>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.kn58.com': <GET http://www.kn58.com>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.1earn.net': <GET http://www.1earn.net/>
+2011-06-05 14:43:38-0400 [shop] DEBUG: Filtered offsite request to 'www.officetea.cn': <GET http://www.officetea.cn>
+2011-06-05 14:43:40-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=17
+2011-06-05 14:43:40-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=17> (referer: http://www.dianping.com/link?pageno=13)
+2011-06-05 14:43:40-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=58
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.long369.com': <GET http://www.long369.com/city/hangzhou/>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.ygcar.cn': <GET http://www.ygcar.cn/>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.02880.cn': <GET http://www.02880.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.mamapapa.com.cn': <GET http://www.mamapapa.com.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.full-easy.com': <GET http://www.full-easy.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.vcvcv.cn': <GET http://www.vcvcv.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.lezipu.com': <GET http://www.lezipu.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.021train.com': <GET http://www.021train.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.tyeat.com': <GET http://www.tyeat.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.hr98.com': <GET http://www.hr98.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.565u.cn': <GET http://www.565u.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.joy58.com': <GET http://www.joy58.com/>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.greeneggs.cn': <GET http://www.greeneggs.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.592chi.com': <GET http://www.592chi.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.jadia.cn': <GET http://www.jadia.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.dache.cn': <GET http://www.dache.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.ss-xf.com': <GET http://www.ss-xf.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'blog.sina.com.cn': <GET http://blog.sina.com.cn/u/1280737331>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'redianwang.5d6d.com': <GET http://redianwang.5d6d.com/>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.ythr.com.cn': <GET http://www.ythr.com.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.jianaiyezi.com': <GET http://www.jianaiyezi.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.netke.net': <GET http://www.netke.net>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.11qd.com': <GET http://www.11qd.com>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.loiser.cn': <GET http://www.loiser.cn>
+2011-06-05 14:43:41-0400 [shop] DEBUG: Filtered offsite request to 'www.flyemail.cn': <GET http://www.flyemail.cn>
+2011-06-05 14:43:42-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/2997
+2011-06-05 14:43:42-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/2997> (referer: http://www.dianping.com/link?pageno=12)
+2011-06-05 14:43:42-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=21
+2011-06-05 14:43:43-0400 [scrapy] DEBUG: Response: http://www.dianping.com/aboutus/friend
+2011-06-05 14:43:43-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/aboutus/friend> (referer: http://www.dianping.com/link/edit/2599)
+2011-06-05 14:43:43-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=20
+2011-06-05 14:43:45-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=58
+2011-06-05 14:43:45-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=58> (referer: http://www.dianping.com/link?pageno=60)
+2011-06-05 14:43:45-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=19
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.7shop24.com': <GET http://www.7shop24.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.netsgood.com': <GET http://www.netsgood.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.371bbss.cn': <GET http://www.371bbss.cn>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.618100.net': <GET http://www.618100.net>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.starswork.net': <GET http://www.starswork.net>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.chinasq.com': <GET http://www.chinasq.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.www010.cn': <GET http://www.www010.cn/2006/index.aspx>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.s565.com': <GET http://www.s565.com/link/in.asp?id=dianping>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.baojianchangshi.cn': <GET http://www.baojianchangshi.cn>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.gg960.com': <GET http://www.gg960.com/>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.peixun5.com': <GET http://www.peixun5.com/>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.chmln.com': <GET http://www.chmln.com/index.asp>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.rogsai.cn': <GET http://www.rogsai.cn>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'jyyjt.uu1001.com': <GET http://jyyjt.uu1001.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.51kyj.com': <GET http://www.51kyj.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.51bjoffice.com': <GET http://www.51bjoffice.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.loee.net': <GET http://www.loee.net>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to '51107.net': <GET http://51107.net>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.gzjunkai.com': <GET http://www.gzjunkai.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'mingxing.zgadmin.com': <GET http://mingxing.zgadmin.com/in.asp?id=dianping>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.aigz.com.cn': <GET http://www.aigz.com.cn>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'sjtp.5d6d.com': <GET http://sjtp.5d6d.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'www.mychose.com': <GET http://www.mychose.com>
+2011-06-05 14:43:46-0400 [shop] DEBUG: Filtered offsite request to 'taobaowanghuangguan.jimdo.com': <GET http://taobaowanghuangguan.jimdo.com/>
+2011-06-05 14:43:48-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=21
+2011-06-05 14:43:48-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=21> (referer: http://www.dianping.com/link?pageno=17)
+2011-06-05 14:43:48-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=55
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.9necklace.com': <GET http://www.9necklace.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.studio2006.cn': <GET http://www.studio2006.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.17huaijiu.cn': <GET http://www.17huaijiu.cn/>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.ding9.com': <GET http://www.ding9.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.sharepicture.cn': <GET http://www.sharepicture.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.dai-gou.com': <GET http://www.dai-gou.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.5hpk.com': <GET http://www.5hpk.com/>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.boogu.com': <GET http://www.boogu.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.dizo.com.cn': <GET http://www.dizo.com.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'hahabb.com': <GET http://hahabb.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.doushao.com': <GET http://www.doushao.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.autocity.com.cn': <GET http://www.autocity.com.cn/>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.dianping.org': <GET http://www.dianping.org>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.52maida.com': <GET http://www.52maida.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.allasay.com': <GET http://www.allasay.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.xiaohuagu.com': <GET http://www.xiaohuagu.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.5icybbs.cn': <GET http://www.5icybbs.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'dnltg.uu1001.com': <GET http://dnltg.uu1001.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.someta.cn': <GET http://www.someta.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.xiedacity.com': <GET http://www.xiedacity.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'diayin.com': <GET http://diayin.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.biaopai.org.cn': <GET http://www.biaopai.org.cn/>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.meimingteng.com': <GET http://www.meimingteng.com>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.5x5i.cn': <GET http://www.5x5i.cn>
+2011-06-05 14:43:48-0400 [shop] DEBUG: Filtered offsite request to 'www.pianpigu.com': <GET http://www.pianpigu.com>
+2011-06-05 14:43:50-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=20
+2011-06-05 14:43:50-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=20> (referer: http://www.dianping.com/link?pageno=17)
+2011-06-05 14:43:50-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=25
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.offbao.com': <GET http://www.offbao.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.9miao.cn': <GET http://www.9miao.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'qd.fangjia.com': <GET http://qd.fangjia.com/>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.oklyl.com': <GET http://www.oklyl.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.mf9999.com': <GET http://www.mf9999.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to '9576.jimdo.com': <GET http://9576.jimdo.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.morkor.com': <GET http://www.morkor.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.paodi1.com': <GET http://www.paodi1.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.51jam.com': <GET http://www.51jam.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.gzhqjpw.com': <GET http://www.gzhqjpw.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.wxana.cn': <GET http://www.wxana.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.yy776.com': <GET http://www.yy776.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.cheparking.com': <GET http://www.cheparking.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'club.lelejian.com': <GET http://club.lelejian.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.yiiwa.net': <GET http://www.yiiwa.net>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.1000fang.net': <GET http://www.1000fang.net>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.020shenghuo.com': <GET http://www.020shenghuo.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.sicu365.com': <GET http://www.sicu365.com/index.asp>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.tt258.cn': <GET http://www.tt258.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.123chacha.cn': <GET http://www.123chacha.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.adu100.com': <GET http://www.adu100.com/>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.zenloan.cn': <GET http://www.zenloan.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.yootiao.com': <GET http://www.yootiao.com>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.bjymwh.cn': <GET http://www.bjymwh.cn>
+2011-06-05 14:43:50-0400 [shop] DEBUG: Filtered offsite request to 'www.m027m.com': <GET http://www.m027m.com>
+2011-06-05 14:43:51-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=19
+2011-06-05 14:43:51-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=19> (referer: http://www.dianping.com/link?pageno=17)
+2011-06-05 14:43:51-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/3107
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.qtuw.com': <GET http://www.qtuw.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.anibook.cn': <GET http://www.anibook.cn>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.guideren.com': <GET http://www.guideren.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.hibo18.com': <GET http://www.hibo18.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.ai-zi.com': <GET http://www.ai-zi.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.xba.com.cn': <GET http://www.xba.com.cn/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.theosoft.net': <GET http://www.theosoft.net>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.chinajifen.com': <GET http://www.chinajifen.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'bbs.56home.com.cn': <GET http://bbs.56home.com.cn>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.fukou.com': <GET http://www.fukou.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.epinwei.com': <GET http://www.epinwei.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.chomen.com': <GET http://www.chomen.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'wushuang.m.pps.tv': <GET http://wushuang.m.pps.tv>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.madehr.com': <GET http://www.madehr.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.topbiz360.com': <GET http://www.topbiz360.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.ecook100.com': <GET http://www.ecook100.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'zh.lesson9.com': <GET http://zh.lesson9.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.whcompass.com': <GET http://www.whcompass.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.hsbamboo.com': <GET http://www.hsbamboo.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.txz168.com': <GET http://www.txz168.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.gmlamp.cn': <GET http://www.gmlamp.cn>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.0745park.com': <GET http://www.0745park.com/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.qqtour.cn': <GET http://www.qqtour.cn/>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.wtobag.com': <GET http://www.wtobag.com>
+2011-06-05 14:43:52-0400 [shop] DEBUG: Filtered offsite request to 'www.mafengwo.cn': <GET http://www.mafengwo.cn>
+2011-06-05 14:43:53-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=55
+2011-06-05 14:43:53-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=55> (referer: http://www.dianping.com/link?pageno=58)
+2011-06-05 14:43:53-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/2919
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.uu025.com': <GET http://www.uu025.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.kl7777.com': <GET http://www.kl7777.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.dalink.cn': <GET http://www.dalink.cn/in.asp?id=dianping>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.goubao.cn': <GET http://www.goubao.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.51xiaoguo.com': <GET http://www.51xiaoguo.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.xiaoyiw.cn': <GET http://www.xiaoyiw.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.31mall.com': <GET http://www.31mall.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.ylcqx.com': <GET http://www.ylcqx.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.fuzhimao.com': <GET http://www.fuzhimao.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.dunhuang.name': <GET http://www.dunhuang.name>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.disanlou.com': <GET http://www.disanlou.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.hippx.cn': <GET http://www.hippx.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to '2046z.com': <GET http://2046z.com/link/ttindex.asp?id=dianping>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.waimao1.com': <GET http://www.waimao1.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'adsense.hintpoint.com': <GET http://adsense.hintpoint.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.innhouse.cn': <GET http://www.innhouse.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.bxzx.com.cn': <GET http://www.bxzx.com.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.l518.cn': <GET http://www.l518.cn/>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.yugew.com': <GET http://www.yugew.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.myfootball.com.cn': <GET http://www.myfootball.com.cn>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.bxxf.com': <GET http://www.bxxf.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'qx.x.sfbbs.net': <GET http://qx.x.sfbbs.net>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'anyqy.any2000.com': <GET http://anyqy.any2000.com>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.hulna.cn': <GET http://www.hulna.cn/1180.htm>
+2011-06-05 14:43:54-0400 [shop] DEBUG: Filtered offsite request to 'www.toumai.cn': <GET http://www.toumai.cn>
+2011-06-05 14:43:56-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=25
+2011-06-05 14:43:56-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=25> (referer: http://www.dianping.com/link?pageno=21)
+2011-06-05 14:43:56-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=53
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.loo365.com': <GET http://www.loo365.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.jt51.cn': <GET http://www.jt51.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.yohway.com': <GET http://www.yohway.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.brjsw.cn': <GET http://www.brjsw.cn/>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.7ppop.com': <GET http://www.7ppop.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.365street.com': <GET http://www.365street.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.loboog.com': <GET http://www.loboog.com/>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'bbs.linlidesign.com': <GET http://bbs.linlidesign.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.maoson.com': <GET http://www.maoson.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.52jlw.com': <GET http://www.52jlw.com/>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.iugirl.com': <GET http://www.iugirl.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.52taojie.cn': <GET http://www.52taojie.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'missboardgame.happy800.cn': <GET http://missboardgame.happy800.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.pkwine.com': <GET http://www.pkwine.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.qn114.com': <GET http://www.qn114.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.eotrip.com': <GET http://www.eotrip.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.51sunedu.com': <GET http://www.51sunedu.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.ishangwg.com': <GET http://www.ishangwg.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.cosplayer.org.cn': <GET http://www.cosplayer.org.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.iqinggui.com': <GET http://www.iqinggui.com>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.games22.cn': <GET http://www.games22.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.s52.cn': <GET http://www.s52.cn>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.youthchina.org': <GET http://www.youthchina.org>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.paiyousu.org': <GET http://www.paiyousu.org>
+2011-06-05 14:43:56-0400 [shop] DEBUG: Filtered offsite request to 'www.dudugou.com': <GET http://www.dudugou.com>
+2011-06-05 14:43:57-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/3107
+2011-06-05 14:43:57-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/3107> (referer: http://www.dianping.com/link?pageno=20)
+2011-06-05 14:43:57-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=29
+2011-06-05 14:43:59-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/2919
+2011-06-05 14:43:59-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/2919> (referer: http://www.dianping.com/link?pageno=19)
+2011-06-05 14:43:59-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=28
+2011-06-05 14:44:02-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=53
+2011-06-05 14:44:02-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=53> (referer: http://www.dianping.com/link?pageno=55)
+2011-06-05 14:44:02-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=27
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'tianma.5d6d.com': <GET http://tianma.5d6d.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.ree520.com': <GET http://www.ree520.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.9797u.com': <GET http://www.9797u.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.51scc.com': <GET http://www.51scc.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.cn-okey.com': <GET http://www.cn-okey.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'poetrycn.com': <GET http://poetrycn.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.barishidi.com': <GET http://www.barishidi.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.chsos.com': <GET http://www.chsos.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.yl47.com': <GET http://www.yl47.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.poz.cn': <GET http://www.poz.cn>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.91zhe.com': <GET http://www.91zhe.com/>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.ikangcn.com': <GET http://www.ikangcn.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.nethrb.com': <GET http://www.nethrb.com/>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.yupoo.com': <GET http://www.yupoo.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.lucktree.cn': <GET http://www.lucktree.cn>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.colorcc.com': <GET http://www.colorcc.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.d7semimi.cn': <GET http://www.d7semimi.cn>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.91hong.com': <GET http://www.91hong.com/>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'mrbj.77887.com': <GET http://mrbj.77887.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.39.net': <GET http://www.39.net>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.youquanduo.com': <GET http://www.youquanduo.com/?mktsrc=dianping>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.youbb.cn': <GET http://www.youbb.cn>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.lssms.cn': <GET http://www.lssms.cn>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.31505.com': <GET http://www.31505.com>
+2011-06-05 14:44:02-0400 [shop] DEBUG: Filtered offsite request to 'www.china-iok.com': <GET http://www.china-iok.com>
+2011-06-05 14:44:04-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=29
+2011-06-05 14:44:04-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=29> (referer: http://www.dianping.com/link?pageno=25)
+2011-06-05 14:44:04-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=50
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.cp8aa.com': <GET http://www.cp8aa.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.mmggmm.com': <GET http://www.mmggmm.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.qkxxg8.cn': <GET http://www.qkxxg8.cn/>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.tzwzw.cn': <GET http://www.tzwzw.cn>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.jssntyn.com': <GET http://www.jssntyn.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.hao974.com': <GET http://www.hao974.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.bpyh.org': <GET http://www.bpyh.org>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'yjugeha.any2000.com': <GET http://yjugeha.any2000.com/>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.kmsst.com': <GET http://www.kmsst.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'zyqily122.cn.35so.cn': <GET http://zyqily122.cn.35so.cn>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.0518tm.com': <GET http://www.0518tm.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.tjbusxing.com': <GET http://www.tjbusxing.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.crazyenglishcenter.com': <GET http://www.crazyenglishcenter.com/>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'ui.okbase.net': <GET http://ui.okbase.net>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.mai-zone.com': <GET http://www.mai-zone.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.anctech.com.cn': <GET http://www.anctech.com.cn>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.chengyudh.com': <GET http://www.chengyudh.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.e-airtkt.com': <GET http://www.e-airtkt.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.3gqyw.cn': <GET http://www.3gqyw.cn>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'vvv168.116866.com': <GET http://vvv168.116866.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.jhbl.com': <GET http://www.jhbl.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.518tui.cn': <GET http://www.518tui.cn>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'www.xixixiu.com': <GET http://www.xixixiu.com>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'aol.freebbs.com.tw': <GET http://aol.freebbs.com.tw/>
+2011-06-05 14:44:05-0400 [shop] DEBUG: Filtered offsite request to 'miaozeliang.5tf.net': <GET http://miaozeliang.5tf.net>
+2011-06-05 14:44:07-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=28
+2011-06-05 14:44:07-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=28> (referer: http://www.dianping.com/link?pageno=25)
+2011-06-05 14:44:07-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=33
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'shop.cqeyas.com': <GET http://shop.cqeyas.com/>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.38889993.com': <GET http://www.38889993.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.szsfs.com': <GET http://www.szsfs.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.super-replica.com': <GET http://www.super-replica.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.0576dazhe.com': <GET http://www.0576dazhe.com/>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.crack278.com': <GET http://www.crack278.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.3721top.cn': <GET http://www.3721top.cn>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.7iaoshou.com': <GET http://www.7iaoshou.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.zzjwsy.com': <GET http://www.zzjwsy.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.hao352.com': <GET http://www.hao352.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'onlinefilms.cn': <GET http://onlinefilms.cn/>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.968u.com': <GET http://www.968u.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.sex1000.cn': <GET http://www.sex1000.cn/>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.jianleju.com': <GET http://www.jianleju.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.mixcross.com': <GET http://www.mixcross.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.actop.cn': <GET http://www.actop.cn>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.cosmohn.com': <GET http://www.cosmohn.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.wangyouzhijia.net': <GET http://www.wangyouzhijia.net>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.izengyike.com': <GET http://www.izengyike.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.fanrui.cn': <GET http://www.fanrui.cn>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.010train.com': <GET http://www.010train.com/>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.scotp.com': <GET http://www.scotp.com>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'seo.zhouxiao.net': <GET http://seo.zhouxiao.net>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.loverbar.org': <GET http://www.loverbar.org>
+2011-06-05 14:44:07-0400 [shop] DEBUG: Filtered offsite request to 'www.wenboyuan.com': <GET http://www.wenboyuan.com>
+2011-06-05 14:44:09-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=27
+2011-06-05 14:44:09-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=27> (referer: http://www.dianping.com/link?pageno=25)
+2011-06-05 14:44:09-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/3024
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.top100store.cn': <GET http://www.top100store.cn>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.346346.com.cn': <GET http://www.346346.com.cn/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'foodko.cn': <GET http://foodko.cn>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.cn-bearing.com': <GET http://www.cn-bearing.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.37pu.cn': <GET http://www.37pu.cn/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.utobang.com': <GET http://www.utobang.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.ezdodo.cn': <GET http://www.ezdodo.cn>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.tanlw.com': <GET http://www.tanlw.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.521seo.com.cn': <GET http://www.521seo.com.cn/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.gzpx.org': <GET http://www.gzpx.org>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.oa35.com': <GET http://www.oa35.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.myjmw.com': <GET http://www.myjmw.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.021website.com': <GET http://www.021website.com/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.92zlm.com': <GET http://www.92zlm.com/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.pmjava.com': <GET http://www.pmjava.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.binfenle.com': <GET http://www.binfenle.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.zishahome.com': <GET http://www.zishahome.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.2238202.com': <GET http://www.2238202.com/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.1show8.com': <GET http://www.1show8.com/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.120xzb.com': <GET http://www.120xzb.com/>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.kutao8.com': <GET http://www.kutao8.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.taojiuwang.com': <GET http://www.taojiuwang.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.budxy.cn': <GET http://www.budxy.cn>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.57-edu.com': <GET http://www.57-edu.com>
+2011-06-05 14:44:09-0400 [shop] DEBUG: Filtered offsite request to 'www.ilagou.com': <GET http://www.ilagou.com>
+2011-06-05 14:44:11-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=50
+2011-06-05 14:44:11-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=50> (referer: http://www.dianping.com/link?pageno=53)
+2011-06-05 14:44:11-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/3445
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.inxiang.com.cn': <GET http://www.inxiang.com.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.ysts.net': <GET http://www.ysts.net>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.hizjj.com': <GET http://www.hizjj.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.clanbj.com': <GET http://www.clanbj.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.caiqu.com.cn': <GET http://www.caiqu.com.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.shanghaicentre.com': <GET http://www.shanghaicentre.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'xxy.vxv.cn': <GET http://xxy.vxv.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'net918.org': <GET http://net918.org>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.forestcity.sh.cn': <GET http://www.forestcity.sh.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.fzl-love.cn': <GET http://www.fzl-love.cn/>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.ganxibang.com': <GET http://www.ganxibang.com/>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.vooing.com': <GET http://www.vooing.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'cure.xuntan.com': <GET http://cure.xuntan.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'pshoo.cn': <GET http://pshoo.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.foodmodel.org': <GET http://www.foodmodel.org>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.firstinfo.com.cn': <GET http://www.firstinfo.com.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.yeskys.com.cn': <GET http://www.yeskys.com.cn/>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.168tc.com.cn': <GET http://www.168tc.com.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.400abc.com': <GET http://www.400abc.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.bevery.com': <GET http://www.bevery.com/>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'newshow.5d6d.com': <GET http://newshow.5d6d.com/>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.mengxishucheng.com': <GET http://www.mengxishucheng.com>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.wtx123.cn': <GET http://www.wtx123.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.imates.cn': <GET http://www.imates.cn>
+2011-06-05 14:44:11-0400 [shop] DEBUG: Filtered offsite request to 'www.zsion.net': <GET http://www.zsion.net>
+2011-06-05 14:44:13-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=33
+2011-06-05 14:44:13-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=33> (referer: http://www.dianping.com/link?pageno=29)
+2011-06-05 14:44:13-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=48
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.top118.com': <GET http://www.top118.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.kaierchina.com': <GET http://www.kaierchina.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.woaidong.com': <GET http://www.woaidong.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.rome-wedding.com': <GET http://www.rome-wedding.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.027cx.com': <GET http://www.027cx.com/Html/About.asp?ID=27>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.163em.com': <GET http://www.163em.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.maiok.com': <GET http://www.maiok.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to '16tang.5d6d.com': <GET http://16tang.5d6d.com/>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.lukaweddings.com.cn': <GET http://www.lukaweddings.com.cn>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.kokokk.com': <GET http://www.kokokk.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.fy808.com': <GET http://www.fy808.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.52huaqiao.com': <GET http://www.52huaqiao.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'wd95.com': <GET http://wd95.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.aoaowan.com': <GET http://www.aoaowan.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'gototaobao.any2000.com': <GET http://gototaobao.any2000.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'bbs.lucky366.net': <GET http://bbs.lucky366.net>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.hefei5.com': <GET http://www.hefei5.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'sh.veryeast.cn': <GET http://sh.veryeast.cn/>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'link.godtj.com': <GET http://link.godtj.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.xinshenge.com.cn': <GET http://www.xinshenge.com.cn>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.yitaow.com': <GET http://www.yitaow.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.unionpiao.com': <GET http://www.unionpiao.com>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.lh578.cn': <GET http://www.lh578.cn>
+2011-06-05 14:44:13-0400 [shop] DEBUG: Filtered offsite request to 'www.addgo.net': <GET http://www.addgo.net>
+2011-06-05 14:44:14-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/3024
+2011-06-05 14:44:14-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/3024> (referer: http://www.dianping.com/link?pageno=28)
+2011-06-05 14:44:14-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=37
+2011-06-05 14:44:16-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/3445
+2011-06-05 14:44:16-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/3445> (referer: http://www.dianping.com/link?pageno=27)
+2011-06-05 14:44:16-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=36
+2011-06-05 14:44:18-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=48
+2011-06-05 14:44:18-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=48> (referer: http://www.dianping.com/link?pageno=50)
+2011-06-05 14:44:18-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=35
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'wp7811.blog.sohu.com': <GET http://wp7811.blog.sohu.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.360times.com': <GET http://www.360times.com/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.jianyaba.com': <GET http://www.jianyaba.com/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.kxg123.com': <GET http://www.kxg123.com/in.asp?id=dianping>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.sellom.com': <GET http://www.sellom.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.jntejia.com': <GET http://www.jntejia.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.gzyyq.com': <GET http://www.gzyyq.com/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.czlk.obm.cn': <GET http://www.czlk.obm.cn/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.chenhun.com': <GET http://www.chenhun.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.city0731.com': <GET http://www.city0731.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.qqddqqdd.cn': <GET http://www.qqddqqdd.cn>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.bannerbox.cn': <GET http://www.bannerbox.cn/into.asp?username=023bbs>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.177wz.com': <GET http://www.177wz.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.2car.cc': <GET http://www.2car.cc>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'mq13.b10.cnwg.cn': <GET http://mq13.b10.cnwg.cn>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.freeqq.info': <GET http://www.freeqq.info/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.auxun.com': <GET http://www.auxun.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.zw111.com': <GET http://www.zw111.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.soa-ring.cn': <GET http://www.soa-ring.cn/>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.konkalife.net': <GET http://www.konkalife.net>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.rjxz888.cn': <GET http://www.rjxz888.cn>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.5917so.com': <GET http://www.5917so.com>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.4cooking.org': <GET http://www.4cooking.org>
+2011-06-05 14:44:18-0400 [shop] DEBUG: Filtered offsite request to 'www.hindns.cn': <GET http://www.hindns.cn>
+2011-06-05 14:44:20-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=37
+2011-06-05 14:44:20-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=37> (referer: http://www.dianping.com/link?pageno=33)
+2011-06-05 14:44:20-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=45
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.jieri8.com': <GET http://www.jieri8.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.goodpoi.com': <GET http://www.goodpoi.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.sojoy.net': <GET http://www.sojoy.net>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.51cnweb.com': <GET http://www.51cnweb.com/>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.spos.com.cn': <GET http://www.spos.com.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.sqbk.com': <GET http://www.sqbk.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.huanke.cn': <GET http://www.huanke.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.zhaodx.cn': <GET http://www.zhaodx.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.91room.net': <GET http://www.91room.net>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.szcxm.com.cn': <GET http://www.szcxm.com.cn/>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.lobcom.com': <GET http://www.lobcom.com/yywhs>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.lww88.com': <GET http://www.lww88.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.weiyuezf.com': <GET http://www.weiyuezf.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.16307.com': <GET http://www.16307.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.ooioo.net': <GET http://www.ooioo.net>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.lookgo.cn': <GET http://www.lookgo.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.52sports.com.cn': <GET http://www.52sports.com.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.fuzhimao.cn': <GET http://www.fuzhimao.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.kalicn.com': <GET http://www.kalicn.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.lh0596.com': <GET http://www.lh0596.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.byfei.com': <GET http://www.byfei.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.fruitgo.com.cn': <GET http://www.fruitgo.com.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.wzhdq.com': <GET http://www.wzhdq.com>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.xixihui.cn': <GET http://www.xixihui.cn>
+2011-06-05 14:44:20-0400 [shop] DEBUG: Filtered offsite request to 'www.163km.com': <GET http://www.163km.com/>
+2011-06-05 14:44:22-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=36
+2011-06-05 14:44:22-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=36> (referer: http://www.dianping.com/link?pageno=33)
+2011-06-05 14:44:22-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=41
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.east.cn': <GET http://www.east.cn>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.ue56.com': <GET http://www.ue56.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.mycaca.com': <GET http://www.mycaca.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.ekdh.com': <GET http://www.ekdh.com/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'hz.focus.cn': <GET http://hz.focus.cn>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.hahafree.com': <GET http://www.hahafree.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'anyz.any2000.com': <GET http://anyz.any2000.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.sld26.com': <GET http://www.sld26.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.jhhkw.com': <GET http://www.jhhkw.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.soucou.com': <GET http://www.soucou.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.3jpk.com': <GET http://www.3jpk.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.llook.com.cn': <GET http://www.llook.com.cn>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.gpzs8.com': <GET http://www.gpzs8.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.dlog.cn': <GET http://www.dlog.cn/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'wz00111.anyp.cn': <GET http://wz00111.anyp.cn/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.hope99.com': <GET http://www.hope99.com/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.suzhou58.com': <GET http://www.suzhou58.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.enetsky.cn': <GET http://www.enetsky.cn>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.ku2008.net': <GET http://www.ku2008.net>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.21op.com': <GET http://www.21op.com>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.dinkzu.com': <GET http://www.dinkzu.com/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.lifeskill.cn': <GET http://www.lifeskill.cn>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.wiselife.cn': <GET http://www.wiselife.cn/>
+2011-06-05 14:44:22-0400 [shop] DEBUG: Filtered offsite request to 'www.jps8.com': <GET http://www.jps8.com/>
+2011-06-05 14:44:23-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=35
+2011-06-05 14:44:23-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=35> (referer: http://www.dianping.com/link?pageno=33)
+2011-06-05 14:44:23-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/828
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.citw2008.com': <GET http://www.citw2008.com/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.lianyira2.cn': <GET http://www.lianyira2.cn>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.sj19.net': <GET http://www.sj19.net>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.ybtg.cn': <GET http://www.ybtg.cn>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.tochgo.com': <GET http://www.tochgo.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.comhuan.com': <GET http://www.comhuan.com/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.powerdevice.net.cn': <GET http://www.powerdevice.net.cn>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.zhekou.com': <GET http://www.zhekou.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.try2u.com': <GET http://www.try2u.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.kutj.com': <GET http://www.kutj.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.178518.com': <GET http://www.178518.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.6435.cn': <GET http://www.6435.cn/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.pcate.com': <GET http://www.pcate.com/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.9158.com': <GET http://www.9158.com/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.1zhaopin.com': <GET http://www.1zhaopin.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.vchi.cn': <GET http://www.vchi.cn/>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.5aichi.net': <GET http://www.5aichi.net>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.rrzw.com': <GET http://www.rrzw.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.hotour.cn': <GET http://www.hotour.cn>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.pk2win.com': <GET http://www.pk2win.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.sogouba.com': <GET http://www.sogouba.com/home.php>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.je1.cn': <GET http://www.je1.cn>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.58tj.com': <GET http://www.58tj.com>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.guangban.com': <GET http://www.guangban.com/enter.asp?linkid=76>
+2011-06-05 14:44:23-0400 [shop] DEBUG: Filtered offsite request to 'www.i-jar.com': <GET http://www.i-jar.com/>
+2011-06-05 14:44:25-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=45
+2011-06-05 14:44:25-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=45> (referer: http://www.dianping.com/link?pageno=48)
+2011-06-05 14:44:25-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/903
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.51joybuy.com': <GET http://www.51joybuy.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.dz-life.com': <GET http://www.dz-life.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.szskys.com': <GET http://www.szskys.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.zsjmw.com': <GET http://www.zsjmw.com/>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.wiki8.net': <GET http://www.wiki8.net>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'secondhouse.wuxi.soufun.com': <GET http://secondhouse.wuxi.soufun.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.honjob.com': <GET http://www.honjob.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.shenghuowang.net': <GET http://www.shenghuowang.net>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.transminds.com': <GET http://www.transminds.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www365.lingd.net': <GET http://www365.lingd.net>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.hushangting.com': <GET http://www.hushangting.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.maizone.com': <GET http://www.maizone.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.newspacetime.cn': <GET http://www.newspacetime.cn>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.qska.com': <GET http://www.qska.com/link/in.asp?id=dianping>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'bnu.edusq.com': <GET http://bnu.edusq.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.191win.cn': <GET http://www.191win.cn>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.usdns.cn': <GET http://www.usdns.cn>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.guei.cn': <GET http://www.guei.cn>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.ynflxx.com': <GET http://www.ynflxx.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.40100.cn': <GET http://www.40100.cn>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.luonet.com': <GET http://www.luonet.com>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.xswx.net': <GET http://www.xswx.net>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.long.cc': <GET http://www.long.cc>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to 'www.csdjx.com.cn': <GET http://www.csdjx.com.cn/>
+2011-06-05 14:44:25-0400 [shop] DEBUG: Filtered offsite request to '53u.com': <GET http://53u.com>
+2011-06-05 14:44:27-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=41
+2011-06-05 14:44:27-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=41> (referer: http://www.dianping.com/link?pageno=37)
+2011-06-05 14:44:27-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link?pageno=43
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.gfzxw.com': <GET http://www.gfzxw.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.commonenglish.cn': <GET http://www.commonenglish.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.5icw.net.cn': <GET http://www.5icw.net.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.qiqiwa.com': <GET http://www.qiqiwa.com/>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.oxford.com.cn': <GET http://www.oxford.com.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.baowoo.com': <GET http://www.baowoo.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to '1658.5d6d.com': <GET http://1658.5d6d.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.lifegogle.com': <GET http://www.lifegogle.com/>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.pizza8.cn': <GET http://www.pizza8.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.37tao.com': <GET http://www.37tao.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.261du.com': <GET http://www.261du.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.zhksw.com': <GET http://www.zhksw.com/>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.ninthshop.com': <GET http://www.ninthshop.com/>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.icr.com.hk': <GET http://www.icr.com.hk>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.5ims.net.cn': <GET http://www.5ims.net.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.plukkr.com': <GET http://www.plukkr.com>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.7610.com.cn': <GET http://www.7610.com.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.xacy.cn': <GET http://www.xacy.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.seexee.cn': <GET http://www.seexee.cn/>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.cy128.net': <GET http://www.cy128.net>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.benlee.com.cn': <GET http://www.benlee.com.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.sojz.com.cn': <GET http://www.sojz.com.cn>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.auding.org': <GET http://www.auding.org>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.avcars.net': <GET http://www.avcars.net>
+2011-06-05 14:44:27-0400 [shop] DEBUG: Filtered offsite request to 'www.jucanba.cn': <GET http://www.jucanba.cn>
+2011-06-05 14:44:29-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/828
+2011-06-05 14:44:29-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/828> (referer: http://www.dianping.com/link?pageno=36)
+2011-06-05 14:44:29-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/595
+2011-06-05 14:44:31-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/903
+2011-06-05 14:44:31-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/903> (referer: http://www.dianping.com/link?pageno=35)
+2011-06-05 14:44:31-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/595
+2011-06-05 14:44:33-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link?pageno=43
+2011-06-05 14:44:33-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link?pageno=43> (referer: http://www.dianping.com/link?pageno=45)
+2011-06-05 14:44:33-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/595
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.53trip.com': <GET http://www.53trip.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.pksex.cn': <GET http://www.pksex.cn>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.goubile.com': <GET http://www.goubile.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.fex56.com': <GET http://www.fex56.com/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.8you8.com': <GET http://www.8you8.com/birthday/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'ypine.any2000.com': <GET http://ypine.any2000.com/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.0512tuangou.com': <GET http://www.0512tuangou.com/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.520chi.com': <GET http://www.520chi.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'ny.xylong.com': <GET http://ny.xylong.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.maodu.cn': <GET http://www.maodu.cn>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.qqkp.com': <GET http://www.qqkp.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.pifa123.cn': <GET http://www.pifa123.cn/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.bcnq.com': <GET http://www.bcnq.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.chihuo.com': <GET http://www.chihuo.com/index.php>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.51juhe.com': <GET http://www.51juhe.com/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.2rt.cn': <GET http://www.2rt.cn>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to '15813.com': <GET http://15813.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.tiangongarts.com': <GET http://www.tiangongarts.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'vod.ksdada.cn': <GET http://vod.ksdada.cn/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.wymusic.eb.cn': <GET http://www.wymusic.eb.cn>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.gonews.com.cn': <GET http://www.gonews.com.cn>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.azm8.org': <GET http://www.azm8.org/>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.5yzl.com': <GET http://www.5yzl.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.bizsik.com': <GET http://www.bizsik.com>
+2011-06-05 14:44:33-0400 [shop] DEBUG: Filtered offsite request to 'www.nhxs.com.cn': <GET http://www.nhxs.com.cn>
+2011-06-05 14:44:35-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/595
+2011-06-05 14:44:35-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/595> (referer: http://www.dianping.com/link?pageno=41)
+2011-06-05 14:44:35-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/1237
+2011-06-05 14:44:37-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/595
+2011-06-05 14:44:37-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/595> (referer: http://www.dianping.com/link?pageno=41)
+2011-06-05 14:44:37-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/1237
+2011-06-05 14:44:38-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/595
+2011-06-05 14:44:38-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/595> (referer: http://www.dianping.com/link?pageno=41)
+2011-06-05 14:44:38-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=595
+2011-06-05 14:44:39-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/1237
+2011-06-05 14:44:39-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/1237> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:39-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/1237
+2011-06-05 14:44:41-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/1237
+2011-06-05 14:44:41-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/1237> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:41-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/471
+2011-06-05 14:44:42-0400 [scrapy] DEBUG: Response: http://www.dianping.com/?linkid=595
+2011-06-05 14:44:42-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com/?linkid=595> (referer: http://www.dianping.com/link/595)
+2011-06-05 14:44:42-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=1237
+2011-06-05 14:44:42-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/1237
+2011-06-05 14:44:42-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/1237> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:42-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/471
+2011-06-05 14:44:44-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/471
+2011-06-05 14:44:44-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/471> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:44-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/471
+2011-06-05 14:44:45-0400 [scrapy] DEBUG: Response: http://www.dianping.com/?linkid=1237
+2011-06-05 14:44:45-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com/?linkid=1237> (referer: http://www.dianping.com/link/1237)
+2011-06-05 14:44:45-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/921
+2011-06-05 14:44:46-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/471
+2011-06-05 14:44:46-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/471> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:46-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/921
+2011-06-05 14:44:48-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/471
+2011-06-05 14:44:48-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/471> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:48-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=471
+2011-06-05 14:44:49-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/921
+2011-06-05 14:44:49-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/921> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:49-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/921
+2011-06-05 14:44:51-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/921
+2011-06-05 14:44:51-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/921> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:51-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/715
+2011-06-05 14:44:52-0400 [scrapy] DEBUG: Response: http://www.dianping.com/?linkid=471
+2011-06-05 14:44:52-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com/?linkid=471> (referer: http://www.dianping.com/link/471)
+2011-06-05 14:44:52-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=921
+2011-06-05 14:44:52-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/921
+2011-06-05 14:44:52-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/921> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:52-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/715
+2011-06-05 14:44:54-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/715
+2011-06-05 14:44:54-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/715> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:54-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/715
+2011-06-05 14:44:55-0400 [scrapy] DEBUG: Response: http://www.dianping.com/?linkid=921
+2011-06-05 14:44:55-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com/?linkid=921> (referer: http://www.dianping.com/link/921)
+2011-06-05 14:44:55-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/591
+2011-06-05 14:44:56-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/715
+2011-06-05 14:44:56-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/715> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:56-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/591
+2011-06-05 14:44:58-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/715
+2011-06-05 14:44:58-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/715> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:58-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=715
+2011-06-05 14:44:59-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/edit/591
+2011-06-05 14:44:59-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/edit/591> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:44:59-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/out/591
+2011-06-05 14:45:00-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/591
+2011-06-05 14:45:00-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/link/591> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:45:00-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/edit/1726
+2011-06-05 14:45:01-0400 [scrapy] DEBUG: Response: http://www.dianping.com/?linkid=715
+2011-06-05 14:45:01-0400 [shop] DEBUG: Crawled (302) <GET http://www.dianping.com/?linkid=715> (referer: http://www.dianping.com/link/715)
+2011-06-05 14:45:01-0400 [scrapy] DEBUG: Request: http://www.dianping.com/?linkid=591
+2011-06-05 14:45:02-0400 [scrapy] DEBUG: Response: http://www.dianping.com/link/out/591
+2011-06-05 14:45:02-0400 [shop] DEBUG: Crawled (404) <GET http://www.dianping.com/link/out/591> (referer: http://www.dianping.com/link?pageno=43)
+2011-06-05 14:45:02-0400 [scrapy] DEBUG: Request: http://www.dianping.com/link/1726
+2011-06-05 14:45:03-0400 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force unclean shutdown
+2011-06-05 14:45:03-0400 [shop] INFO: Closing spider (shutdown)
+2011-06-05 14:45:03-0400 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2011-06-05 14:45:04-0400 [shop] DEBUG: Crawled while closing spider: <GET http://www.dianping.com/link/edit/1726>
+2011-06-05 14:51:35-0400 [scrapy] INFO: Scrapy 0.12.0.2542 started (bot: dianping)
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Enabled extensions: TelnetConsole, SpiderContext, WebService, CoreStats, MemoryUsage, CloseSpider
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Enabled scheduler middlewares: DuplicatesFilterMiddleware
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Enabled downloader middlewares: IgnoreVisitedUrlMiddleware, PeepMiddleware
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Enabled item pipelines: DianpingPipeline
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2011-06-05 14:51:35-0400 [shop] INFO: Spider opened
+2011-06-05 14:51:35-0400 [scrapy] DEBUG: Request: http://www.dianping.com/citylist
+2011-06-05 14:51:37-0400 [scrapy] DEBUG: Response: http://www.dianping.com/citylist
+2011-06-05 14:51:37-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/citylist> (referer: None)
+2011-06-05 14:51:37-0400 [scrapy] DEBUG: Request: http://www.dianping.com/macao
+2011-06-05 14:51:37-0400 [scrapy] DEBUG: Request: http://www.dianping.com/diqing
+2011-06-05 14:51:37-0400 [scrapy] DEBUG: Request: http://www.dianping.com/dezhou
+2011-06-05 14:51:39-0400 [scrapy] DEBUG: Response: http://www.dianping.com/macao
+2011-06-05 14:51:39-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/macao> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:51:39-0400 [scrapy] DEBUG: Request: http://www.dianping.com/zhaotong
+2011-06-05 14:51:42-0400 [scrapy] DEBUG: Response: http://www.dianping.com/diqing
+2011-06-05 14:51:42-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/diqing> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:51:42-0400 [scrapy] DEBUG: Request: http://www.dianping.com/shop/2008156
+2011-06-05 14:51:44-0400 [scrapy] DEBUG: Response: http://www.dianping.com/dezhou
+2011-06-05 14:51:44-0400 [shop] DEBUG: Crawled (200) <GET http://www.dianping.com/dezhou> (referer: http://www.dianping.com/citylist)
+2011-06-05 14:51:44-0400 [scrapy] DEBUG: Request: http://www.dianping.com/search/category/281/0/g0p2
+2011-06-05 14:51:45-0400 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force unclean shutdown
+2011-06-05 14:51:45-0400 [shop] INFO: Closing spider (shutdown)
+2011-06-05 14:51:46-0400 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2011-06-05 14:51:46-0400 [shop] DEBUG: Crawled while closing spider: <GET http://www.dianping.com/zhaotong>

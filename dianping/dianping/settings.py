@@ -21,10 +21,11 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = '/tmp/scrapy/cache/'
 DOWNLOADER_MIDDLEWARES = [ 
+    'dianping.middlewares.IgnoreVisitedUrlMiddleware',
+    'dianping.middlewares.IgnoreExistingURLMiddleware',
+    'dianping.middlewares.RateLimitMiddleware',
     'scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware',
     'scrapy.contrib.spidermiddleware.depth.DepthMiddleware',
-    'dianping.middlewares.IgnoreVisitedUrlMiddleware',
-    'dianping.middlewares.PeepMiddleware',
 ]
 
 # Depth limit

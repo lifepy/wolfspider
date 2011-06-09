@@ -5,20 +5,28 @@ from scrapy.project import crawler
 from scrapy.item import BaseItem
 from scrapy.utils.request import request_fingerprint
 from scrapy.exceptions import IgnoreRequest
-from scrapy.selector import HtmlXPathSelector
 
 from dianping.items import DianpingShopItem
 from dianping.db import get_connection
 
-class PeepMiddleware(object):
+class RateLimitMiddleware(object):
     limit_indicators = (
         '对不起，你访问的太快了',
         #'发布的所有内容，未经许可，不得转载',
     )
+    def process_response(self, request, response, spider):
+        # log.msg('Response: %s'%response.url, log.INFO)
+        for indicator in self.limit_indicators:
+            if indicator in response.body:
+                log.msg('Toooooo FAST!', log.WARNING)
+                crawler.engine.close_spider(spider, 'over the limit')
+                raise IgnoreRequest
 
-    def __init__(self, *args, **kwargs):
-        super(PeepMiddleware, self).__init__(*args, **kwargs)
-        self.db = get_connection()
+        return response
+
+class IgnoreExistingURLMiddleware(object):
+
+    db = get_connection()
 
     def process_request(self, request, spider):
         if self.db.shops.find_one({'link_url':request.url}):
@@ -26,16 +34,6 @@ class PeepMiddleware(object):
             raise IgnoreRequest
         # log.msg('Request: %s'%request.url, log.INFO)
         return None
-
-    def process_response(self, request, response, spider):
-        # log.msg('Response: %s'%response.url, log.INFO)
-        for indicator in self.limit_indicators:
-            if indicator in response.body:
-                log.msg('TOOOOOO FAST!', log.WARNING)
-                crawler.engine.close_spider(spider, 'over the limit')
-                raise IgnoreRequest
-
-        return response
 
 class IgnoreVisitedUrlMiddleware(object):
     """Middleware to ignore re-visiting item pages if they were already visited
@@ -50,6 +48,7 @@ class IgnoreVisitedUrlMiddleware(object):
     CONTEXT_KEY = 'visited_ids'
 
     def process_spider_output(self, response, result, spider):
+        log.msg("IGNORE REVIESITED!", log.WARNING)
         context = getattr(spider, 'context', {})
         visited_ids = context.setdefault(self.CONTEXT_KEY, {})
         ret = {}

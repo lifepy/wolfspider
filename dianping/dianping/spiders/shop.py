@@ -14,15 +14,27 @@ class ShopDetailSpider(CrawlSpider):
     name = 'shop'
     allowed_domains = ['dianping.com']
     rules = (
-        Rule(SgmlLinkExtractor(allow=('shop/\d+'), deny=('.+/map$')),callback='parse_shop_detail'), # shop detail
-        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='aside aside-left']")), # category pages
-        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/.*$'), restrict_xpaths="//a[@class='NextPage']")), # next page
+        Rule(SgmlLinkExtractor(allow=('shop/\d+(\?KID=\d+)?$'), deny=('.+/map$'), unique=True),callback='parse_shop_detail'), # shop detail
+        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='block ep-channels-wrapper']", unique=True)), # category pages"//div[@class='aside aside-left']"
+        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/.*$'), restrict_xpaths="//a[@class='NextPage']", unique=True)), # next page
         # Rule(SgmlLinkExtractor(allow=('[a-z]+'), restrict_xpaths="//div[@id='divPY']")), # city page
     )
 
     # start_urls = ['http://www.dianping.com/citylist',]
     # start_urls = ['http://www.dianping.com/search/category/9/10/r1629g4479',]
     
+    # detail page
+    #start_urls = ['http://www.dianping.com/shop/4719387?KID=74659',]
+
+    # list page (no next page)
+    # start_urls = ['http://www.dianping.com/search/category/2/10/g1851r2578j104k111x121y200/r14g10g355g1851r2578k111j104x121y200',]
+
+    # list page (with next page)
+    # start_urls = ['http://www.dianping.com/search/category/2/10/g328',]
+
+    # crawled page
+    # start_urls = ['http://www.dianping.com/shop/3873886',]
+
     def start_requests(self):
         if 'SEEDS' in settings.__dict__.keys():
             for seed in settings.SEEDS:
@@ -35,7 +47,6 @@ class ShopDetailSpider(CrawlSpider):
             raise KeyError('neither SEEDS nor SEED_FILE defined in settings.py')
 
     def parse_shop_detail(self, response):
-        print response.url
         hxs = HtmlXPathSelector(response)
 
         # Link url
@@ -115,6 +126,7 @@ class ShopDetailSpider(CrawlSpider):
         loc_elem = hxs.select("//a[@id='G_loc']/span/text()").extract()
         if loc_elem:
             item['city'] = loc_elem[0]
+
         return item
 
     def parse_name_count(self, beautifulsoup_tag, tag_name='strong'):

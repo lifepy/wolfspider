@@ -32,6 +32,17 @@ class DianpingShopItem(Item):
     transport = Field()
 
     def __repr__(self):
+        vals = self.__dict__['_values']
+        result = ""
+        if 'name' in vals.keys():
+            result += vals['name'] +'| '
+        if 'city' in vals.keys():
+            result += vals['city'] 
+        if result == '':
+            return 'No INFO!!!'
+        return result
+
+    def details(self):
         result = "\n"
         for k,v in self.__dict__['_values'].items():
             if type(v) == str:

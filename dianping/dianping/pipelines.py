@@ -20,4 +20,5 @@ class DianpingPipeline(object):
             self.db.shops.save(shop_obj)
         else:
             self.db.shops.save(val_dict)
+            #self.db.visited.save(val_dict['link_url'])
         return item       

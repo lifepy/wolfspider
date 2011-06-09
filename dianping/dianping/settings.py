@@ -33,7 +33,7 @@ DOWNLOADER_MIDDLEWARES = [
 #CONCURRENT_REQUESTS_PER_SPIDER=1
 #CONCURRENT_SPIDERS=1
 
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 2
 DOWNLOAD_TIMEOUT = 20
 RANDOMIZE_DOWNLOAD_DELAY = True
 
@@ -41,4 +41,7 @@ RANDOMIZE_DOWNLOAD_DELAY = True
 ITEM_PIPELINES = ['dianping.pipelines.DianpingPipeline']
 
 # SEED that the spider starts with
+SEEDS= (
+    'http://www.dianping.com/beijing',
+)
 SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

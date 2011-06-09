@@ -1,8 +1,7 @@
 # coding=utf-8
-import time
-
 from scrapy import log
 from scrapy.http import Request
+from scrapy.project import crawler
 from scrapy.item import BaseItem
 from scrapy.utils.request import request_fingerprint
 from scrapy.exceptions import IgnoreRequest
@@ -12,11 +11,14 @@ from dianping.items import DianpingShopItem
 from dianping.db import get_connection
 
 class PeepMiddleware(object):
+    limit_indicators = (
+        '对不起，你访问的太快了',
+        #'发布的所有内容，未经许可，不得转载',
+    )
+
     def __init__(self, *args, **kwargs):
         super(PeepMiddleware, self).__init__(*args, **kwargs)
         self.db = get_connection()
-        self.n_deny = 0
-        self.interval = 1
 
     def process_request(self, request, spider):
         if self.db.shops.find_one({'link_url':request.url}):
@@ -27,11 +29,12 @@ class PeepMiddleware(object):
 
     def process_response(self, request, response, spider):
         # log.msg('Response: %s'%response.url, log.INFO)
-        if "对不起，你访问的太快了" in response.body:
-            self.n_deny += 1
-            sleep_sec = self.n_deny*self.interval
-            log.msg('Too FAST, wait for %d seconds' %sleep_sec, log.WARNING)
-            time.sleep(sleep_sec)
+        for indicator in self.limit_indicators:
+            if indicator in response.body:
+                log.msg('TOOOOOO FAST!', log.WARNING)
+                crawler.engine.close_spider(spider, 'over the limit')
+                raise IgnoreRequest
+
         return response
 
 class IgnoreVisitedUrlMiddleware(object):

@@ -24,10 +24,15 @@ class ShopDetailSpider(CrawlSpider):
     # start_urls = ['http://www.dianping.com/search/category/9/10/r1629g4479',]
     
     def start_requests(self):
-        seed_file = join(dirname(abspath(__file__)), pardir, 'seeds', 'shanghai.txt')
-        for line in open(settings.SEED_FILE,'r').readlines():
-            if line.startswith('#'): continue
-            yield Request(line.strip(), dont_filter=True)
+        if 'SEEDS' in settings.__dict__.keys():
+            for seed in settings.SEEDS:
+                yield Request(seed, dont_filter=True)
+        elif 'SEED_FILE' in settings.__dict__.keys():
+            for line in open(settings.SEED_FILE,'r').readlines():
+                if line.startswith('#'): continue
+                yield Request(line.strip(), dont_filter=True)
+        else:
+            raise KeyError('neither SEEDS nor SEED_FILE defined in settings.py')
 
     def parse_shop_detail(self, response):
         print response.url
@@ -121,7 +126,3 @@ class ShopDetailSpider(CrawlSpider):
                 ret.append( (name,count,))
         return ret
 
-
-
-
-        return item

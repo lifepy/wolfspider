@@ -8,6 +8,7 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 
 from dianping.items import DianpingShopItem
+from dianping import settings
 
 class ShopDetailSpider(CrawlSpider):
     name = 'shop'
@@ -24,7 +25,7 @@ class ShopDetailSpider(CrawlSpider):
     
     def start_requests(self):
         seed_file = join(dirname(abspath(__file__)), pardir, 'seeds', 'shanghai.txt')
-        for line in open(seed_file,'r').readlines():
+        for line in open(settings.SEED_FILE,'r').readlines():
             if line.startswith('#'): continue
             yield Request(line.strip(), dont_filter=True)
 

@@ -6,6 +6,7 @@
 #     http://doc.scrapy.org/topics/settings.html
 #
 
+from os.path import dirname, join
 BOT_NAME = 'dianping'
 BOT_VERSION = '1.0'
 
@@ -27,7 +28,7 @@ DOWNLOADER_MIDDLEWARES = [
 ]
 
 # Depth limit
-DEPTH_LIMIT=10
+# DEPTH_LIMIT=10
 
 #CONCURRENT_REQUESTS_PER_SPIDER=1
 #CONCURRENT_SPIDERS=1
@@ -38,3 +39,6 @@ RANDOMIZE_DOWNLOAD_DELAY = True
 
 # LOG_FILE = 'crawl.log'
 ITEM_PIPELINES = ['dianping.pipelines.DianpingPipeline']
+
+# SEED that the spider starts with
+SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

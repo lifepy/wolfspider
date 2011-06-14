@@ -43,6 +43,8 @@ ITEM_PIPELINES = ['dianping.pipelines.DianpingPipeline']
 
 # SEED that the spider starts with
 SEEDS= (
-    'http://www.dianping.com/beijing',
+    'http://www.dianping.com/lianyungang',
+    'http://www.dianping.com/huaian',
+    'http://www.dianping.com/yancheng',
 )
 SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

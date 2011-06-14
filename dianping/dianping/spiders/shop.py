@@ -16,7 +16,7 @@ class ShopDetailSpider(CrawlSpider):
     rules = (
         Rule(SgmlLinkExtractor(allow=('shop/\d+(\?KID=\d+)?$'), deny=('.+/map$'), unique=True),callback='parse_shop_detail'), # shop detail
         Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='block ep-channels-wrapper']", unique=True)), # category pages"//div[@class='aside aside-left']"
-        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/.*$'), restrict_xpaths="//a[@class='NextPage']", unique=True)), # next page
+        Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/?.*$'), restrict_xpaths="//a[@class='NextPage']", unique=True)), # next page
         # Rule(SgmlLinkExtractor(allow=('[a-z]+'), restrict_xpaths="//div[@id='divPY']")), # city page
     )
 

@@ -79,7 +79,18 @@ province_dict = {
         'xinxiang','jiaozuo','puyang','xuchang','luohe','sanmenxia',
         # 南阳市 商丘市 信阳市 周口市 驻马店市
         'nanyang','shangqiu','yinyang','zhoukou','zhumadian'),
-    'hubei':(#
+
+    'hubei':(# 湖北
+        # 武汉市 黄石市 十堰市 宜昌市 襄阳市 荆州市 
+        'wuhan','huangshi','shiyan','yichang','xiangyang','jingzhou',
+        # 荆门市 鄂州市 孝感市 黄冈市 咸宁市 随州市 *恩施州
+        'jinmen','ezhou','xiaogan','huanggang','xianning','suizhou','enshizhou'),
+
+    'hunan':(# 湖南
+         # 长沙市 株洲市 湘潭市 衡阳市 邵阳市 岳阳市 
+         'changsha','zhuzhou','xiangtan','hengyang','zhaoyang','yueyang',
+         # 常德市 张家界市 益阳市 郴州市 永州市 怀化市 娄底市 湘西州
+         'changde','zhangjiajie','yiyang','chenzhou','yongzhou','huaihua','loudi','xiangxi'),
 
     # 直辖市
     'beijing':('beijing',),

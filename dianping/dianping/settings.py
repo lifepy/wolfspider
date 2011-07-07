@@ -92,6 +92,8 @@ NEWSPIDER_MODULE = 'dianping.spiders'
 DEFAULT_ITEM_CLASS = 'dianping.items.DianpingShopItem'
 #USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 USER_AGENT = 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10'
+LOG_ENABLED = True
+LOG_FILE = "/tmp/scrapy.dianping.shop.log"
 LOG_LEVEL = 'DEBUG'
 
 HTTPCACHE_ENABLED = True

@@ -79,6 +79,7 @@ province_dict = {
         'xinxiang','jiaozuo','puyang','xuchang','luohe','sanmenxia',
         # 南阳市 商丘市 信阳市 周口市 驻马店市
         'nanyang','shangqiu','yinyang','zhoukou','zhumadian'),
+    'hubei':(#
 
     # 直辖市
     'beijing':('beijing',),

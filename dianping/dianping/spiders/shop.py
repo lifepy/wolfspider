@@ -15,7 +15,7 @@ class ShopDetailSpider(CrawlSpider):
     allowed_domains = ['dianping.com']
     rules = (
         Rule(SgmlLinkExtractor(allow=('shop/\d+(\?KID=\d+)?$'), deny=('.+/map$'), unique=True),callback='parse_shop_detail'), # shop detail
-        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='block ep-channels-wrapper']", unique=True)), # category pages"//div[@class='aside aside-left']"
+        Rule(SgmlLinkExtractor(allow=('search/category/\d+/.+\d+$'), restrict_xpaths="//div[@class='block ep-channels-wrapper']", unique=True)), # category pages
         Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/?.*$'), restrict_xpaths="//a[@class='NextPage']", unique=True)), # next page
         # Rule(SgmlLinkExtractor(allow=('[a-z]+'), restrict_xpaths="//div[@id='divPY']")), # city page
     )
@@ -123,9 +123,15 @@ class ShopDetailSpider(CrawlSpider):
             if text.startswith('公交信息'.decode('utf-8')):
                 item['transport'] = elem_obj.find('dd').text
 
+        # remove tailing '站' in city name
         loc_elem = hxs.select("//a[@id='G_loc']/span/text()").extract()
         if loc_elem:
-            item['city'] = loc_elem[0]
+            site_name = loc_elem[0]
+            head,sep,tail = site_name.rpartition('站'.decode('utf-8'))
+            if sep=='':
+                item['city'] = site_name
+            else:
+                item['city'] = head
 
         return item
 

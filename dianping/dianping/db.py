@@ -6,4 +6,3 @@ def get_connection():
     conn = pymongo.Connection(vega).dianping
     conn.authenticate('dianping','crawler')
     return conn
-

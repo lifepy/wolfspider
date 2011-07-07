@@ -62,4 +62,3 @@ class DianpingShopItem(Item):
                 result += `k`+' '+`v`+'\n'
 
         return result
-

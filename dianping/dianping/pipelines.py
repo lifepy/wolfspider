@@ -11,7 +11,6 @@ class DianpingPipeline(object):
         
     def process_item(self, item, spider):
         val_dict = item.__dict__['_values']
-        val_dict['status'] = 'done'
         shop_obj = self.db.shops.find_one({'link_url':val_dict['link_url']})
         if shop_obj:
             log.msg('Update: '+shop_obj['link_url'], log.INFO)

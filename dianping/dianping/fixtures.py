@@ -1,3 +1,4 @@
+# coding=utf-8
 huadong=['shandong','jiangsu','zhejiang','anhui','jiangxi','fujian','taiwan']
 huazhong=['hunan','hubei','henan']
 huanan=['guangdong','guangxi','hainan']

@@ -2,12 +2,11 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/topics/item-pipeline.html
-import pymongo
+from koubei.db import get_connection
 
 class KoubeiPipeline(object):
     def __init__(self):
-        self.db = pymongo.Connection().koubei
-        self.db.authenticate('koubei','crawler')
+        self.db = get_connection()
         
     def process_item(self, item, spider):
         val_dict = item.__dict__['_values']

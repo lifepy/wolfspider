@@ -1,8 +1,10 @@
 # coding=utf-8
-huadong=['shandong','jiangsu','zhejiang','anhui','jiangxi','fujian','taiwan']
-huazhong=['hunan','hubei','henan']
-huanan=['guangdong','guangxi','hainan']
-
+huabei = ['beijing','tianjin','hebei','shanxi','neimenggu']
+huadong = ['shandong','jiangsu','zhejiang','anhui','jiangxi','fujian','taiwan']
+huazhong = ['hunan','hubei','henan']
+huanan = ['guangdong','guangxi','hainan']
+xinan = ['sichuan','yunnan','guizhou','chongqing','xizang']
+xibei = ['']
 province_dict = {
     # 华东地区：山东、江苏、浙江、安徽、江西、福建、台湾
     'shandong':( # 山东
@@ -49,7 +51,7 @@ province_dict = {
 
      'taiwan':( 'taiwan', ), # 台湾
 
-     # 华南地区
+    # 华南地区：广东、广西、海南
     'guangdong':(# 广东
          # 广州市 韶关市 深圳市 珠海市 汕头市 佛山市 
          'guangzhou','shaoguan','shenzhen','zhuhai','shantou','foshan',
@@ -93,8 +95,54 @@ province_dict = {
          # 常德市 张家界市 益阳市 郴州市 永州市 怀化市 娄底市 湘西州
          'changde','zhangjiajie','yiyang','chenzhou','yongzhou','huaihua','loudi','xiangxi'),
 
-    # 直辖市
-    'beijing':('beijing',),
+    # 西南地区：四川、云南、贵州、重庆、西藏
+    'sichuan':(# 四川
+        # 成都市 自贡市 攀枝花市 泸州市 德阳市 绵阳市 
+        'chengdu','zigong','panzhihua','luzhou','deyang','mianyang',
+        # 广元市 遂宁市 内江市 乐山市 南充市 眉山市
+        'guangyuan','suining','neijiang','leshan','nanchong','meishan',
+        # 宜宾市 广安市 达州市 雅安市 巴中市 资阳市 阿坝州 甘孜州 凉山州
+        'yibin','guangan','dazhou','yaan','bazhong','ziyang','aba','ganzi','liangshan'),
+
+    'yunnan':(# 云南
+        # 昆明市 曲靖市 玉溪市 保山市 昭通市 丽江市 
+        'kunming','qujing','yuxi','baoshan','zhaotong','lijiang',
+        # 普洱市（点评不存在） 临沧市 楚雄州 红河州 文山州 西双版纳州 
+        'linchang','chuxiong','honghe','wenshan','xishuangbanna',
+        # *大理州 德宏州 怒江州 迪庆州
+        'dalizhou','dehong','nujiang','diqing'),
+
+    'guizhou':(# 贵州
+        # 贵阳市 六盘水市 遵义市 安顺市 *铜仁地区 黔西南州 *毕节地区 黔东南州 黔南州
+        'guiyang','liupanshui','zunyi','anshun','tongrendiqu','bijiediqu','qianxinan','qiandongnan','qiannan'),
+
     'chongqing':('chongqing',),
+
+    'xizang':(# 西藏
+        # 拉萨市 *昌都地区 山南地区 *日喀则地区 那曲地区 阿里地区 林芝地区
+        'lasa','changdudiqu','shannan','rikazediqu','naqu','ali','linzhi'),
+
+    # 华北地区：北京、天津、河北、山西、内蒙古
+    'beijing':('beijing',),
     'tianjin':('tianjing',),
+    
+    'hebei':(# 河北
+        # 石家庄市 唐山市 秦皇岛市 邯郸市 邢台市 保定市 
+        'shijiazhuang','tangshan','qinghuangdao','handan','xingtai','baoding',
+        # 张家口市 承德市 沧州市 廊坊市 衡水市
+        'zhangjiakou','chengde','cangzhou','langfang','hengshui'),
+
+    'shanxi':(# 山西
+        # 太原市 大同市 阳泉市 长治市 晋城市 朔州市 
+        'taiyuan','datong','yangquan','changzhi','jincheng','shuozhou',
+        # 晋中市 运城市 忻州市 临汾市 吕梁市
+        'jinzhong','yuncheng','xinzhou','linfen','lvliang'),
+    
+    'neimenggu':(# 内蒙古
+        # 呼和浩特市 包头市 乌海市 赤峰市 通辽市 鄂尔多斯市 
+        'huhehaote','baotou','wuhai','chifeng','tongliao','eerduosi',
+        # 呼伦贝尔市 巴彦淖尔市 乌兰察布市 兴安盟 锡林郭勒盟 阿拉善盟
+        'hulunbeier','bamunaoer','wulanchabu','xingan','xilinguole','alashan'),
+
+    # 直辖市
 }

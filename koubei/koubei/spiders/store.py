@@ -24,7 +24,6 @@ class StoreDetailSpider(CrawlSpider):
         seed_file = join(dirname(abspath(__file__)), pardir, 'seeds','koubei.txt')
         for line in open(seed_file, 'r').readlines():
             url = line.strip().split(',')[1]
-            print url
             yield Request(url, dont_filter=True) 
 
     def parse_store_detail(self, response):
@@ -36,6 +35,11 @@ class StoreDetailSpider(CrawlSpider):
         match = self.city_pattern.match(response.url)
         if match:
             item['city'] = match.group(1)
+
+        # Bread Crumb
+        crumb_elems = hxs.select("//div[@class='crumb k2-fix-float']/*").extract()
+        if crumb_elems:
+            item['bread_crumb'] = u'\xbb'.join([ BeautifulSoup(c).text for c in crumb_elems ])
 
         # Name
         name_elem = hxs.select("//input[@id='store-full-name']/@value").extract()
@@ -94,5 +98,5 @@ class StoreDetailSpider(CrawlSpider):
         if impress_elems:
             item['impress_list'] = [imp.strip() for imp in impress_elems]
 
-        print "PARSING : %s | %s | %s | %s" % (item['name'], item['tel'], item['address'], item['avg_cost'])
+        #print "PARSING : %s | %s | %s | %s" % (item['name'], item['tel'], item['address'], item['avg_cost'])
         return item

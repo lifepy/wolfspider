@@ -8,6 +8,7 @@ from scrapy.item import Item, Field
 class KoubeiStoreItem(Item):
     link_url = Field()
 
+    bread_crumb = Field(default="")
     name = Field(default="")
     category = Field(default="")
 
@@ -28,6 +29,12 @@ class KoubeiStoreItem(Item):
     city = Field()
 
     def __repr__(self):
+        return self.simple_repr()
+
+    def simple_repr(self):
+        return self['name']+'| '+self['city'] +' | ' +self['bread_crumb']
+
+    def full_repr(self):
         result = "\n"
         for k,v in self.__dict__['_values'].items():
             if type(v) == str:
@@ -47,5 +54,3 @@ class KoubeiStoreItem(Item):
                 result += `k`+' '+`v`+'\n'
 
         return result
-
-

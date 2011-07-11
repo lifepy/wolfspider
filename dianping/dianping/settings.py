@@ -80,5 +80,5 @@ for c in cities:
             shop_id = match.group(1)
             urls.append('http://www.dianping.com/shop/%s/photos' % shop_id)
 print len(urls)
-SEEDS['photo'] = []
+SEEDS['photo'] = urls
 # SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

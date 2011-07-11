@@ -37,7 +37,7 @@ class ShopDetailSpider(CrawlSpider):
 
     def start_requests(self):
         if 'SEEDS' in settings.__dict__.keys():
-            for seed in settings.SEEDS:
+            for seed in settings.SEEDS[self.name]:
                 yield Request(seed, dont_filter=True)
         elif 'SEED_FILE' in settings.__dict__.keys():
             for line in open(settings.SEED_FILE,'r').readlines():

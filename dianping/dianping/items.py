@@ -62,3 +62,10 @@ class DianpingShopItem(Item):
                 result += `k`+' '+`v`+'\n'
 
         return result
+
+class DianpingImageItem(Item):
+    shop_id = Field()
+    link_url = Field()
+    image_urls = Field()
+    images = Field()
+    image_name = Field()

@@ -1,9 +1,21 @@
 # coding=utf-8
-huabei = ['beijing','tianjin','hebei','shanxi','neimenggu']
+municipalities = ['北京','天津','上海','重庆']
+
+north = ['北京','天津','河北省','山西省','内蒙古自治区']
+huabei = ['beijing','tianjin','hebei','shanxi','neimenggu'] #DONE
+
+east = ['山东省','江苏省','浙江省','安徽省','江西省','福建','台湾']
 huadong = ['shandong','jiangsu','zhejiang','anhui','jiangxi','fujian','taiwan']
-huazhong = ['hunan','hubei','henan']
-huanan = ['guangdong','guangxi','hainan']
+
+middle = ['湖南省','湖北省','河南省']
+huazhong = ['hunan','hubei','henan'] #DONE
+
+south = ['广东省','广西省','海南省']
+huanan = ['guangdong','guangxi','hainan'] #DONE
+
+southwest = ['四川省','云南省','贵州省','重庆','西藏自治区']
 xinan = ['sichuan','yunnan','guizhou','chongqing','xizang']
+
 xibei = ['']
 province_dict = {
     # 华东地区：山东、江苏、浙江、安徽、江西、福建、台湾

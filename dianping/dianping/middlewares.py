@@ -9,6 +9,26 @@ from scrapy.exceptions import IgnoreRequest
 from dianping.items import DianpingShopItem
 from dianping.db import get_connection
 
+class ShopIdMiddleware(object):
+    image2shop_dict = {}
+    props2remember = ['Shop-Id','Image-Name']
+
+    def process_request(self, request, spider):
+        header_dict = {}
+        for prop_name in self.props2remember:
+            if prop_name in request.headers.keys():
+                header_dict[prop_name] = request.headers[prop_name]
+                del request.headers[prop_name]
+        if header_dict != {}:
+            self.image2shop_dict[request.url] = header_dict
+
+    def process_response(self, request, response, spider):
+        if response.url in self.image2shop_dict.keys():
+            response.headers.update( self.image2shop_dict[response.url] )
+            # response.headers['ShopId'] = self.image2shop_dict[response.url]
+            del self.image2shop_dict[response.url]
+        return response
+
 class RateLimitMiddleware(object):
     limit_indicators = (
         '对不起，你访问的太快了',

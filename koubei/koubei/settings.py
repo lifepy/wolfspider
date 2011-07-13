@@ -20,7 +20,7 @@ HTTPCACHE_EXPIRATION_SECS = 0
 HTTPCACHE_DIR = '/tmp/scrapy/cache/koubei/'
 DOWNLOADER_MIDDLEWARES = [ 
     'koubei.middlewares.IgnoreVisitedUrlMiddleware',
-    # 'koubei.middlewares.IgnoreExistingURLMiddleware',
+    'koubei.middlewares.IgnoreExistingURLMiddleware',
     # 'koubei.middlewares.RateLimitMiddleware',
     'scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware',
     'scrapy.contrib.spidermiddleware.depth.DepthMiddleware',

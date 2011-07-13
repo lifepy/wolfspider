@@ -1,9 +1,11 @@
 from scrapy import log
 from scrapy.http import Request
 from scrapy.item import BaseItem
+from scrapy.execeptions import IgnoreRequest
 from scrapy.utils.request import request_fingerprint
 
 from koubei.items import KoubeiStoreItem
+from koubei.db import get_connection
 
 class IgnoreVisitedUrlMiddleware(object):
     """Middleware to ignore re-visiting item pages if they were already visited
@@ -43,3 +45,12 @@ class IgnoreVisitedUrlMiddleware(object):
     
     def _visited_id(self, request):
         return request.meta.get(self.VISITED_ID) or request_fingerprint(request)
+
+class IgnoreExistingURLMiddleware(object):
+    db = get_connection()
+    def process_request(self, request, spider):
+        if self.db.shops.find_one({'link_url':request.url}):
+            log.msg('Ignore: %s'%request.url, log.WARNING)
+            raise IgnoreRequest
+        # log.msg('Request: %s'%request.url, log.INFO)
+        return None

@@ -28,10 +28,9 @@ DOWNLOADER_MIDDLEWARES = [
 
 # project specific
 ITEM_PIPELINES = [ 'koubei.pipelines.KoubeiPipeline', ]
-LOG_LEVEL='INFO'
 
 LOG_ENABLED = True
-LOG_FILE = "/tmp/scrapy.koubei.store.log"
+#LOG_FILE = "/tmp/scrapy.koubei.store.log"
 LOG_LEVEL = 'DEBUG'
 
 # Depth limit

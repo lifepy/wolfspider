@@ -1,22 +1,30 @@
 # coding=utf-8
 municipalities = ['北京','天津','上海','重庆']
 
+# 华北地区
 north = ['北京','天津','河北省','山西省','内蒙古自治区']
 huabei = ['beijing','tianjin','hebei','shanxi','neimenggu'] #DONE
 
+# 华东地区
 east = ['山东省','江苏省','浙江省','安徽省','江西省','福建','台湾']
 huadong = ['shandong','jiangsu','zhejiang','anhui','jiangxi','fujian','taiwan']
 
+# 华中地区
 middle = ['湖南省','湖北省','河南省']
 huazhong = ['hunan','hubei','henan'] #DONE
 
+# 华南地区
 south = ['广东省','广西省','海南省']
 huanan = ['guangdong','guangxi','hainan'] #DONE
 
+# 西南地区
 southwest = ['四川省','云南省','贵州省','重庆','西藏自治区']
-xinan = ['sichuan','yunnan','guizhou','chongqing','xizang']
+xinan = ['sichuan','yunnan','guizhou','chongqing','xizang'] 
 
-xibei = ['']
+# 西北地区
+northwest = ['宁夏','新疆','甘肃','陕西','青海']
+xibei = ['ningxia','xinjiang','gansu','shaanxi','qinghai']
+
 province_dict = {
     # 华东地区：山东、江苏、浙江、安徽、江西、福建、台湾
     'shandong':( # 山东
@@ -156,5 +164,34 @@ province_dict = {
         # 呼伦贝尔市 巴彦淖尔市 乌兰察布市 兴安盟 锡林郭勒盟 阿拉善盟
         'hulunbeier','bamunaoer','wulanchabu','xingan','xilinguole','alashan'),
 
-    # 直辖市
+    # 西北地区
+    'ningxia':(# 宁夏
+        # 银川市 *石嘴山市 吴忠市 固原市 中卫市
+        'yinchuan','wuzhong','guyuan','zhongwei'),
+
+    'xinjiang':(# 新疆
+        # 乌鲁木齐市 克拉玛依市 *吐鲁番地区 *哈密地区 *昌吉回族自治州 博尔塔拉蒙古自治州 
+        'wulumuqi','kelamayi','tulufandiqu','hamidiqu','changjizhou','boertala',
+        # 巴音郭楞蒙古自治州 *阿克苏地区 克孜勒苏 *柯尔克孜自治州 *喀什地区 *和田地区 
+        'bayinguoleng','akesudiqu','azilesu','kashidiqu','hetiandiqu',
+        # 伊犁哈萨克自治州 *塔城地区 *阿勒泰地区
+        'yili','tachengdiqu','aletaidiqu'),
+
+    'shaanxi':(# 陕西
+        # 西安市 铜川市 宝鸡市 咸阳市 渭南市 延安市 
+        'xian','tongchuan','baoji','xianyang','weinan','yanan',
+        # 汉中市 榆林市 安康市 商洛市
+        'hanzhong','yulin','ankang','shangluo'),
+
+    'gansu':(# 甘肃
+        # 兰州市 嘉峪关市 金昌市 白银市 天水市 武威市 
+        'lanzhou','jiayuguan','jinchang','baiyin','tianshui','wuwei',
+        # 张掖市 平凉市 酒泉市 庆阳市 定西市 陇南市 
+        'zhangye','pingliang','jiuquan','qingyang','dingxi','longnan',
+        # *临夏回族自治州 *甘南藏族自治州
+        'linxiazhou','gannanzhou'),
+
+    'qinghai':(# 青海
+        # 西宁市 海东地区 海北藏族自治州 黄南藏族自治州 *海南藏族自治州 果洛藏族自治州 玉树藏族自治州 海西蒙古族藏族自治州
+        'xining','haidong','huangnan','hainanzhou','guoluo','yushu','haixi')
 }

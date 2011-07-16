@@ -49,7 +49,7 @@ class IgnoreExistingURLMiddleware(object):
     db = get_connection()
 
     def process_request(self, request, spider):
-        if self.db.shops.find_one({'link_url':request.url}):
+        if self.db.shops.find_one({'link_url':request.url}) or self.db.images.files.find_one({'url':request.url}):
             log.msg('Ignore: %s'%request.url, log.WARNING)
             raise IgnoreRequest
         # log.msg('Request: %s'%request.url, log.INFO)

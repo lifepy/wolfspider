@@ -30,6 +30,7 @@ class DianpingShopItem(Item):
     landmark_bread_crumb = Field()
     hours = Field()
     transport = Field()
+    images = Field()
 
     def __repr__(self):
         vals = self.__dict__['_values']

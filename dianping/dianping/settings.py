@@ -49,7 +49,7 @@ RANDOMIZE_DOWNLOAD_DELAY = True
 
 # --- Fixtures & Seeds for 'shop' ---
 from fixtures import *
-provinces = huadong
+provinces = xibei
 cities = set()
 for p in provinces:
     cities = cities.union(province_dict[p])

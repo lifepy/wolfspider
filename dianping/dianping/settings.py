@@ -33,7 +33,10 @@ DOWNLOADER_MIDDLEWARES = [
 
 # --- Pipelines ---
 IMAGES_STORE = '/tmp/images/'
-ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline','dianping.pipelines.DianpingPipeline']
+ITEM_PIPELINES = [
+    'scrapy.contrib.pipeline.images.ImagesPipeline',
+    'dianping.pipelines.DianpingPipeline'
+]
 
 # --- Depth limit ---
 # DEPTH_LIMIT=10

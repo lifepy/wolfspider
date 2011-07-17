@@ -4,7 +4,7 @@
 # See: http://doc.scrapy.org/topics/item-pipeline.html
 from scrapy import log
 from os.path import join
-from scrapy.exceptions import IgnoreRequest
+from scrapy.exceptions import DropItem
 import gridfs
 
 from dianping.db import get_connection
@@ -19,10 +19,10 @@ class DianpingPipeline(object):
         
     def process_item(self, item, spider):
         if isinstance(item, DianpingShopItem):
-            self.process_detail_item(item, spider)
+            return self.process_detail_item(item, spider)
 
         if isinstance(item, DianpingImageItem):
-            self.process_image_item(item, spider)
+            return self.process_image_item(item, spider)
 
     def process_detail_item(self, item, spider):
         val_dict = item.__dict__['_values']
@@ -43,8 +43,11 @@ class DianpingPipeline(object):
             assert len(item['images']) > 0
             assert len(item['image_name']) > 0
         except:
-            raise IgnoreRequest
+            raise DropItem
        
+        # drop existing images
+        if self.fs.exists({'url':item['images'][0]['url']}):
+            raise DropItem
 
         file = open(join(IMAGES_STORE, item['images'][0]['path']),'r')
         self.fs.put(file, filename=item['image_name']+'.jpg', shop_id=item['shop_id'], url=item['images'][0]['url'])

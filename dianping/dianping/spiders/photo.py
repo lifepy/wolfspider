@@ -10,6 +10,7 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import HtmlXPathSelector
 
 from scrapy.exceptions import IgnoreRequest
+from scrapy import log
 
 from dianping.items import DianpingImageItem
 from dianping import settings
@@ -20,11 +21,11 @@ class ShopImageSpider(CrawlSpider):
     allowed_domains = ['dianping.com', 'i1.dpfile.com','i2.dpfile.com','i3.dpfile.com']
     rules = (
         Rule(SgmlLinkExtractor(allow=('shop/\d+/photos(\?pg=\d+)*'), restrict_xpaths="//a[@class='NextPage']", unique=True), callback="parse_image_list_page"), # page list page & next page
-        #Rule(SgmlLinkExtractor(allow=('photos/\d+'), restrict_xpaths="//div[@class='gallery-list-wrapper page-block']", unique=True), callback="extract_image"), # photo page
+        Rule(SgmlLinkExtractor(allow=('photos/\d+'), restrict_xpaths="//div[@class='gallery-list-wrapper page-block']", unique=True), callback="extract_image"), # photo page
         Rule(SgmlLinkExtractor(allow=('.+\d+p\d+(n\d+)?/?.*$'), restrict_xpaths="//a[@class='NextPage']", unique=True)), # next page
     )
 
-    start_urls = ['http://www.dianping.com/shop/2830624/photos',]
+#    start_urls = ['http://www.dianping.com/shop/1999627/photos',]
 
     def start_requests(self):
         if 'SEEDS' in settings.__dict__.keys():
@@ -42,10 +43,6 @@ class ShopImageSpider(CrawlSpider):
         hxs = HtmlXPathSelector(response)
         selector = SgmlLinkExtractor(allow=('photos/\d+'), restrict_xpaths="//div[@class='gallery-list-wrapper page-block']", unique=True)
         next_page_link = SgmlLinkExtractor(allow=('shop/\d+/photos(\?pg=\d+)*'), restrict_xpaths="//a[@class='NextPage']", unique=True)
-        match = self.image_list_url_pattern.match(response.url)
-        if match:
-            shop_id = match.group(1)
-
         # Prepare cookies
         cookies = {}
         if 'Set-Cookie' in response.headers:
@@ -53,18 +50,28 @@ class ShopImageSpider(CrawlSpider):
                 k,v = eq.strip().split('=')
                 cookies[k] = v
 
+        requests = []
         # follow next-page
         for link in next_page_link.extract_links(response):
-            yield Request(link.url, cookies=cookies, callback=self.parse_image_list_page)
+            req = Request(link.url, cookies=cookies, callback=self.parse_image_list_page)
+            requests.append(req)
 
         # follow image link
         for link in selector.extract_links(response):
-            img_name = hxs.select('//a[@href="%s"]/img/../../../..//strong/@title' %urlparse(link.url).path).extract()[0]
-            yield Request(link.url, headers={'Shop-Id':shop_id, "Image-Name":img_name}, cookies=cookies, callback=self.extract_image)
+            req = Request(link.url, cookies=cookies, callback=self.extract_image)
+            requests.append(req)
+
+        for req in requests:
+            yield req
 
     def extract_image(self, response):
-        shop_id = response.headers.get("Shop-Id",'')
-        img_name = response.headers.get("Image-Name",'')
+        hxs = HtmlXPathSelector(response)
+        
+        shop_id_match = self.image_list_url_pattern.match(response.headers.get('Referer'))
+        if shop_id_match:
+            shop_id = shop_id_match.group(1)
+        img_name = hxs.select('//div[@class="page-main-title"]/h1/text()').extract()[0]
+
         if len(shop_id) <= 0 or len(img_name) <= 0:
             raise IgnoreRequest
         item = DianpingImageItem()

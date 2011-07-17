@@ -23,17 +23,21 @@ HTTPCACHE_DIR = '/tmp/scrapy/cache/'
 
 # --- Middlewares ---
 DOWNLOADER_MIDDLEWARES = [ 
-    'dianping.middlewares.ShopIdMiddleware',
-    'dianping.middlewares.IgnoreVisitedUrlMiddleware',
-    'dianping.middlewares.IgnoreExistingURLMiddleware',
-    'dianping.middlewares.RateLimitMiddleware',
-    'scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware',
-    'scrapy.contrib.spidermiddleware.depth.DepthMiddleware',
+    'scrapy.contrib.spidermiddleware.referer.RefererMiddleware', # add 'Referer' to request based on response
+    'dianping.middlewares.RefererMiddleware', # update 'Referer' field on response based on request
+    'dianping.middlewares.IgnoreVisitedUrlMiddleware', # prevent re-visit a url
+    'dianping.middlewares.IgnoreExistingURLMiddleware', # prevent re-visit a url based on database
+    'dianping.middlewares.RateLimitMiddleware', # prevent over limit
+    'scrapy.contrib.downloadermiddleware.httpcache.HttpCacheMiddleware', # Cache
+    #'scrapy.contrib.spidermiddleware.depth.DepthMiddleware', # depth control
 ]
 
 # --- Pipelines ---
 IMAGES_STORE = '/tmp/images/'
-ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline','dianping.pipelines.DianpingPipeline']
+ITEM_PIPELINES = [
+    'scrapy.contrib.pipeline.images.ImagesPipeline',
+    'dianping.pipelines.DianpingPipeline',
+]
 
 # --- Depth limit ---
 # DEPTH_LIMIT=10
@@ -79,6 +83,5 @@ for c in cities:
         if match:
             shop_id = match.group(1)
             urls.append('http://www.dianping.com/shop/%s/photos' % shop_id)
-print len(urls)
 SEEDS['photo'] = urls
 # SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

@@ -70,3 +70,14 @@ class DianpingImageItem(Item):
     image_urls = Field()
     images = Field()
     image_name = Field()
+
+    def __repr__(self):
+        vals = self.__dict__['_values']
+        result = ""
+        if 'image_name' in vals.keys():
+            result += vals['image_name'] +'| '
+        if 'image_urls' in vals.keys():
+            result += vals['image_urls'][0]
+        if result == '':
+            return 'No INFO!!!'
+        return result

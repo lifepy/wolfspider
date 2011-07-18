@@ -1,7 +1,7 @@
 from scrapy import log
 from scrapy.http import Request
 from scrapy.item import BaseItem
-from scrapy.execeptions import IgnoreRequest
+from scrapy.exceptions import IgnoreRequest
 from scrapy.utils.request import request_fingerprint
 
 from koubei.items import KoubeiStoreItem

@@ -13,13 +13,13 @@ USER_AGENT = 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.10) Gecko/2010092
 
 # --- Log ---
 LOG_ENABLED = True
-#LOG_FILE = "/tmp/scrapy.dianping.shop.log"
+LOG_FILE = "/tmp/scrapy.dianping.log"
 LOG_LEVEL = 'DEBUG'
 
 # --- Cache ---
 HTTPCACHE_ENABLED = True
 HTTPCACHE_EXPIRATION_SECS = 0
-HTTPCACHE_DIR = '/tmp/scrapy/cache/'
+HTTPCACHE_DIR = '/tmp/scrapy/'
 
 # --- Middlewares ---
 DOWNLOADER_MIDDLEWARES = [ 
@@ -53,13 +53,13 @@ RANDOMIZE_DOWNLOAD_DELAY = True
 
 # --- Fixtures & Seeds for 'shop' ---
 from fixtures import *
-provinces = xibei
+provinces = xibei + xinan + huazhong + huanan + huabei + huadong
 cities = set()
 for p in provinces:
     cities = cities.union(province_dict[p])
 
 SEEDS = {}
-SEEDS['shop'] = [ 'http://www.dianping.com/'+ city for city in cities ]
+SEEDS['dianping.info'] = [ 'http://www.dianping.com/'+ city for city in cities ]
 
 # --- Fixtures & Seeds for 'photo' ---
 import re
@@ -83,5 +83,5 @@ for c in cities:
         if match:
             shop_id = match.group(1)
             urls.append('http://www.dianping.com/shop/%s/photos' % shop_id)
-SEEDS['photo'] = urls
+SEEDS['dianping.photo'] = urls
 # SEED_FILE=join(dirname(__file__), 'seeds', 'major-cities.txt')

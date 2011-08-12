@@ -6,7 +6,7 @@ from scrapy.contrib.spiders import CrawlSpider, Rule
 from daodao.items import DDAttractionInfoItem
 
 class InfoSpider(CrawlSpider):
-    name = 'info'
+    name = 'daodao.info'
     allowed_domains = ['www.daodao.com']
     start_urls = ['http://www.www.daodao.com/']
 

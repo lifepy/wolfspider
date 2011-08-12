@@ -17,7 +17,7 @@ from dianping import settings
 
 class ShopImageSpider(CrawlSpider):
     image_list_url_pattern = re.compile(r'http://www\.dianping\.com/shop/(\d+).+')
-    name = 'photo'
+    name = 'dianping.photo'
     allowed_domains = ['dianping.com', 'i1.dpfile.com','i2.dpfile.com','i3.dpfile.com']
     rules = (
         Rule(SgmlLinkExtractor(allow=('shop/\d+/photos(\?pg=\d+)*'), restrict_xpaths="//a[@class='NextPage']", unique=True), callback="parse_image_list_page"), # page list page & next page
